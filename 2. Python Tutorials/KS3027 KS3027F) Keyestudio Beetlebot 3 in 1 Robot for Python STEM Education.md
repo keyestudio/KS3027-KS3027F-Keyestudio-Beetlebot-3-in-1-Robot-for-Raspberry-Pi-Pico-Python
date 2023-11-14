@@ -1,46 +1,30 @@
-# KS3027 KS3027F) Keyestudio Beetlebot 3 in 1 Robot for Python STEM Education
+# KS3027 (KS3027F) Keyestudio Beetlebot 3 in 1 Robot for Python STEM Education
 
 ## 1. Description：
 
-The Beetlebot smart robot, compatible with LEGO building blocks, is a STEM educational product which can automatically dodge obstacles, follow black lines and light to move. Besides, it has three cool forms such as the soccer robot, the siege robot, the handling robot. As for beginners, they cancreate whatever
-they want by LEGO building blocks.
+The Beetlebot smart robot, compatible with LEGO building blocks, is a STEM educational product which can automatically dodge obstacles, follow black lines and light to move. Besides, it has three cool forms such as the soccer robot, the siege robot, the handling robot. As for beginners, they can create whatever they want by LEGO building blocks.
 
-Various improvements have been made on the Beetlebot car in comparison with other smart cars. It integrates a motor driver and a large number ofsensors
-and is easy to assemble. Beetlebot's control core is today's mainstream
-open source hardware, which allows Beetlebot to implement low-cost
-programming learning programs.
+Various improvements have been made on the Beetlebot car in comparison with other smart cars. It integrates a motor driver and a large number of sensors and is easy to assemble. Beetlebot's control core is today's mainstream open source hardware, which allows Beetlebot to implement low-cost programming learning programs.
 
-Going forward, not only can it impart basic programming knowledge and AI
-application to children and the youth, but also it can cultivate their
-creativity, hands-on ability, problem-solving capability, interpersonal
-communication as well as teamwork ability. With this kit, you have a
-chance to experience soccer games using your own robots.
+Going forward, not only can it impart basic programming knowledge and AI application to children and the youth, but also it can cultivate their creativity, hands-on ability, problem-solving capability, interpersonal communication as well as teamwork ability. With this kit, you have a chance to experience soccer games using your own robots.
 
 ## 2. Features：
 
-  - Compatible with LEGO building blocks: generate diverse forms with
-    LEGO blocks and sensors
-
+  - Compatible with LEGO building blocks: generate diverse forms with LEGO blocks and sensors
+    
   - Three forms: a soccer robot, a siege engine, a handling robot
 
-  - Various functions: Pictures display, atmosphere light control, line
-    tracking, obstacle avoidance, light following , IR control and WIFI
-    control.
-
-  - Easy to build: embedded design on car body; wire up the car body
-    with a few steps
-
-  - High compatibility: reserve ports for the Raspberry Pico board and
-    the ESP32 control board
-
-  - Charging function: integrate a circuit for 18650 batteries, low-cost
-    and effective
-
-  - WiFi Control: adopt WiFi control, can finish tailor-made software
-    development
-
-  - App: compatible with Android and iOS systems, with aesthetic page
-    and flexible control system
+  - Various functions: Pictures display, atmosphere light control, line tracking, obstacle avoidance, light following , IR control and WIFI control.
+    
+  - Easy to build: embedded design on car body; wire up the car body with a few steps
+    
+  - High compatibility: reserve ports for the Raspberry Pico board and the ESP32 control board
+    
+  - Charging function: integrate a circuit for 18650 batteries, low-cost and effective
+    
+  - WiFi Control: adopt WiFi control, can finish tailor-made software development
+    
+  - App: compatible with Android and iOS systems, with aesthetic page and flexible control system
 
 ## 3. Specification：
 
@@ -420,68 +404,56 @@ Environmental protection attributes: ROHS
 
 ## 5. How to install the Beetlebot car：
 
-The step-by-step instructions for installing the Beetlebot trolley are
-shown below: 
+The step-by-step instructions for installing the Beetlebot trolley are shown below: 
+![Img](./media/KS3027%20KS3027F%29%20Keyestudio Beetlebot 3 in%201 Robot for Python%20STEM%20Education.md/img-20231024113913.png)
 
-![](raw.githubusercontent.com/keyestudio/KS3027-KS3027F-Keyestudio-Beetlebot-3-in-1-Robot-for-Raspberry-Pi-Pico-Python/master/media/c24d227244aa37b95645581bb76b52f4.png)
+
 
 ## 6. PCB Board：
-    
-    ![](raw.githubusercontent.com/keyestudio/KS3027-KS3027F-Keyestudio-Beetlebot-3-in-1-Robot-for-Raspberry-Pi-Pico-Python/master/media/7a101d142fecfe0d47e12a3897dd632d.png)
-    
-    ![](raw.githubusercontent.com/keyestudio/KS3027-KS3027F-Keyestudio-Beetlebot-3-in-1-Robot-for-Raspberry-Pi-Pico-Python/master/media/f30dfbb6347df2336aae511ecac5be31.png)
 
-Note: Switch the DIP switch to OFF before removing or installing the
-battery.  
+![Img](./media/KS3027%20KS3027F%29%20Keyestudio Beetlebot 3 in%201 Robot for Python%20STEM%20Education.md/img-20231024113931.png)
+
+![Img](./media/KS3027%20KS3027F%29%20Keyestudio Beetlebot 3 in%201 Robot for Python%20STEM%20Education.md/img-20231024113945.png)
+
+
+Note: Switch the DIP switch to OFF before removing or installing the battery.  
 
 ## 7. Projects：
-    
+
 ### Project 1: Onboard LED Flashing
 
 <!-- end list -->
 
 1.  **Description：**
 
-Raspberry Pi Pico has an onboard LED,which is a GP25 pin attached to the
-Raspberry Pi Pico. In this project, we will learn the effect of making
-the onboard LED blink.
+Raspberry Pi Pico has an onboard LED,which is a GP25 pin attached to the Raspberry Pi Pico. In this project, we will learn the effect of making the onboard LED blink.
 
 2.  **Knowledge：**
 
-|                                                                                                                                                            |                                                                                                                                                   |
-| ---------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------- |
-| ![](raw.githubusercontent.com/keyestudio/KS3027-KS3027F-Keyestudio-Beetlebot-3-in-1-Robot-for-Raspberry-Pi-Pico-Python/master/media/3bdcc62cfa661d2b860a76e28537e21e.png) |
-| Raspberry Pi Pico\*1                                                                                                                                       | USB Cable\*1                                                                                                                                      |
+
+![Img](./media/KS3027%20KS3027F%29%20Keyestudio Beetlebot 3 in%201 Robot for Python%20STEM%20Education.md/img-20231024114022.png)
 
 **3.Wiring Up**
 
-In this project, Raspberry Pi Pico is connected to a computer using a
-USB cable.  **Preparation for Python (Important) .**
+In this project, Raspberry Pi Pico is connected to a computer using a USB cable.  
+![Img](./media/KS3027%20KS3027F%29%20Keyestudio Beetlebot 3 in%201 Robot for Python%20STEM%20Education.md/img-20231024114049.png)
 
-![](raw.githubusercontent.com/keyestudio/KS3027-KS3027F-Keyestudio-Beetlebot-3-in-1-Robot-for-Raspberry-Pi-Pico-Python/master/media/8ea81d60b8e2132c358041235490b7d5.jpeg)
 
-**4. Text Code**
+**4. Test Code**
 
-Raspberry Pi Pico onboard LEDS are controlled by THE GP25, which lights
-up when the GP25 output is high.  When the output is low, the LED lights
-turn off.  
+Raspberry Pi Pico onboard LEDS are controlled by THE GP25, which lights up when the GP25 output is high.  When the output is low, the LED lights turn off.  
 
-The code used in this project is saved at KS3027 Keyestudio Beetlebot 3
-in 1 Robot for Pico STEM Education Cart \\ 2.Python Tutorials\\
-2.python\_codes.  We can move the code anywhere.  For example, we can
-save the code in Disk(D) with the path D:\\2.Python\_Codes.  
+The code used in this project is saved at KS3027 Keyestudio Beetlebot 3 in 1 Robot for Pico STEM Education Cart \\ 2.Python Tutorials\\2.python\_codes.  We can move the code anywhere.  For example, we can save the code in Disk(D) with the path D:\\2.Python\_Codes.  
 
-![](raw.githubusercontent.com/keyestudio/KS3027-KS3027F-Keyestudio-Beetlebot-3-in-1-Robot-for-Raspberry-Pi-Pico-Python/master/media/53ad6dae1158e06978b3f04b448272e9.png)
+![Img](./media/KS3027%20KS3027F%29%20Keyestudio Beetlebot 3 in%201 Robot for Python%20STEM%20Education.md/img-20231024114127.png)
 
 5.  **Code running online:**
 
-Open "Thonny" and click "This computer" → "D:" → "2. Python\_Codes" →
-"Project\_01\_Onboard LED Flashing".
+Open "Thonny" and click "This computer" → "D:" → "2. Python\_Codes" →"Project\_01\_Onboard LED Flashing".
 
 ![](raw.githubusercontent.com/keyestudio/KS3027-KS3027F-Keyestudio-Beetlebot-3-in-1-Robot-for-Raspberry-Pi-Pico-Python/master/media/4a8bcae4a34136dc21517d0d8c43d6f0.png)
 
-Open the“Project\_01\_Onboard LED Flashing”folder, and double-click
-“Project\_01\_Onboard\_LED\_Flashing. py” to open it.  As shown below:
+Open the“Project\_01\_Onboard LED Flashing”folder, and double-click “Project\_01\_Onboard\_LED\_Flashing. py” to open it.  As shown below:
 
 ![](raw.githubusercontent.com/keyestudio/KS3027-KS3027F-Keyestudio-Beetlebot-3-in-1-Robot-for-Raspberry-Pi-Pico-Python/master/media/a9457a09c924096ae09ebf352124eb95.png)
 
@@ -503,26 +475,18 @@ Open the“Project\_01\_Onboard LED Flashing”folder, and double-click
 </tbody>
 </table>
 
-Make sure Raspberry Pi Pico is connected to the computer. Click
-“Stop/Restart Backend” and see what the “Shell” window displays.  
+Make sure Raspberry Pi Pico is connected to the computer. Click “Stop/Restart Backend” and see what the “Shell” window displays.  
 
 ![](raw.githubusercontent.com/keyestudio/KS3027-KS3027F-Keyestudio-Beetlebot-3-in-1-Robot-for-Raspberry-Pi-Pico-Python/master/media/49f8d97181aaedb0e6611fba43092ea9.png)
 
-Click "Run Current Script" and the code starts executing, and what you
-see is: Raspberry Pi Pico's LED starts flashing. Or press Ctrl+C or
-click
-![](raw.githubusercontent.com/keyestudio/KS3027-KS3027F-Keyestudio-Beetlebot-3-in-1-Robot-for-Raspberry-Pi-Pico-Python/master/media/27451c8a9c13e29d02bc0f5831cfaf1f.png)
-to exit the program. 
+Click "Run Current Script" and the code starts executing, and what you see is: Raspberry Pi Pico's LED starts flashing. Or press Ctrl+C or click![](raw.githubusercontent.com/keyestudio/KS3027-KS3027F-Keyestudio-Beetlebot-3-in-1-Robot-for-Raspberry-Pi-Pico-Python/master/media/27451c8a9c13e29d02bc0f5831cfaf1f.png) to exit the program. 
 
 ![](raw.githubusercontent.com/keyestudio/KS3027-KS3027F-Keyestudio-Beetlebot-3-in-1-Robot-for-Raspberry-Pi-Pico-Python/master/media/6ec5d9b07c749df4713493ecef75174a.png)
 
 ![](raw.githubusercontent.com/keyestudio/KS3027-KS3027F-Keyestudio-Beetlebot-3-in-1-Robot-for-Raspberry-Pi-Pico-Python/master/media/b282e1fbd4b4d492d19efe7062b7eddb.png)
 ![](raw.githubusercontent.com/keyestudio/KS3027-KS3027F-Keyestudio-Beetlebot-3-in-1-Robot-for-Raspberry-Pi-Pico-Python/master/media/529c3be102eb7414ac1e5e66fb203b6e.png)
 
-Note: This is the code that runs online.  If you disconnect the USB
-cable and restart Raspberry Pi Pico, the LEDS on Raspberry Pi Pico stop
-flashing.  The following information will be displayed in the "Shell"
-window of Thonny software:  
+Note: This is the code that runs online.  If you disconnect the USB cable and restart Raspberry Pi Pico, the LEDS on Raspberry Pi Pico stop flashing.  The following information will be displayed in the "Shell" window of Thonny software:  
 
 ![](raw.githubusercontent.com/keyestudio/KS3027-KS3027F-Keyestudio-Beetlebot-3-in-1-Robot-for-Raspberry-Pi-Pico-Python/master/media/a504d2b93ac673c212752984bc3c89ac.png)
 
@@ -530,7 +494,7 @@ Code to run offline (upload code to Raspberry Pi Pico) :
 
 Ensure that the Raspberry Pi Pico is connected to the computer and click
 ![](raw.githubusercontent.com/keyestudio/KS3027-KS3027F-Keyestudio-Beetlebot-3-in-1-Robot-for-Raspberry-Pi-Pico-Python/master/media/27451c8a9c13e29d02bc0f5831cfaf1f.png).
- 
+
 
 ![](raw.githubusercontent.com/keyestudio/KS3027-KS3027F-Keyestudio-Beetlebot-3-in-1-Robot-for-Raspberry-Pi-Pico-Python/master/media/909d69160049afa664367bace470d888.png)
 
@@ -546,14 +510,12 @@ Upload main.py in the same way.
 
 ![](raw.githubusercontent.com/keyestudio/KS3027-KS3027F-Keyestudio-Beetlebot-3-in-1-Robot-for-Raspberry-Pi-Pico-Python/master/media/0a9aa0d49f9d5a8fa9ad54767e616ae5.png)
 
-Disconnect the USB cable from the Raspberry Pi Pico and reconnect, and
-the Raspberry Pi Pico's LED flashes repeatedly.  
+Disconnect the USB cable from the Raspberry Pi Pico and reconnect, and the Raspberry Pi Pico's LED flashes repeatedly.  
 
 ![](raw.githubusercontent.com/keyestudio/KS3027-KS3027F-Keyestudio-Beetlebot-3-in-1-Robot-for-Raspberry-Pi-Pico-Python/master/media/b282e1fbd4b4d492d19efe7062b7eddb.png)
 ![](raw.githubusercontent.com/keyestudio/KS3027-KS3027F-Keyestudio-Beetlebot-3-in-1-Robot-for-Raspberry-Pi-Pico-Python/master/media/529c3be102eb7414ac1e5e66fb203b6e.png)
 
-Note: The code here runs offline.  If you want to Stop running
-offlineand display the information in the “Shell” window, simply click
+Note: The code here runs offline.  If you want to Stop running offline and display the information in the “Shell” window, simply click
 ![](raw.githubusercontent.com/keyestudio/KS3027-KS3027F-Keyestudio-Beetlebot-3-in-1-Robot-for-Raspberry-Pi-Pico-Python/master/media/27451c8a9c13e29d02bc0f5831cfaf1f.png)
 
 in Thonny software.
@@ -564,48 +526,29 @@ in Thonny software.
 
 1.  **Description：**
 
-There are 4 RGB LEDs, which can be widely used in the decoration of
-buildings, bridges, roads, gardens, courtyards and so on by colors
-adjustment.
+There are 4 RGB LEDs, which can be widely used in the decoration of buildings, bridges, roads, gardens, courtyards and so on by colors adjustment.
 
-In this experiment, we will demonstrate different lighting effects with
-them.
+In this experiment, we will demonstrate different lighting effects with them.
 
 2.  **Knowledge：**
 
-**SK6812RGB:** There are four RGB LEDS on the expansion board of the
-car. It can be seen from the schematic diagram that these four RGBLED
-are all connected in series. Under the condition of sufficient voltage
-and current, hundreds of RGB leds can be connected.  Every RGBLED is an
-independent pixels, each pixel is consist of R, G, B three primary
-colors, which can realize the class of 256 and complete 16777216 colours
-of whole true color display.At the same time, the pixel contains
-internal intelligent digital interface data latch signal shaping
-amplifier drive circuit and the built-in signal shaping
-circuit, effectively ensure the pixel point light color height
-consistency .  
+**SK6812RGB:** There are four RGB LEDS on the expansion board of the car. It can be seen from the schematic diagram that these four RGBLED are all connected in series. Under the condition of sufficient voltage and current, hundreds of RGB leds can be connected.  Every RGBLED is an independent pixels, each pixel is consist of R, G, B three primary colors, which can realize the class of 256 and complete 16777216 colours of whole true color display.At the same time, the pixel contains internal intelligent digital interface data latch signal shaping amplifier drive circuit and the built-in signal shaping circuit, effectively ensure the pixel point light color height consistency .  
 
 ![](raw.githubusercontent.com/keyestudio/KS3027-KS3027F-Keyestudio-Beetlebot-3-in-1-Robot-for-Raspberry-Pi-Pico-Python/master/media/86e292d0666046b72a1e0e68adfb17e8.png)
 
 3.  **Test Code**
 
-The SK6812RGB of the PCB board is controlled by the GPIO 13 of the
-Raspberry Pi Pico.
+The SK6812RGB of the PCB board is controlled by the GPIO 13 of the Raspberry Pi Pico.
 
-The code is saved in the KS3027 Keyestudio Beetlebot 3 in 1 Robot for
-Pico STEM Education \\ 2.Python Tutorials\\ 2.python\_codes.  
+The code is saved in the KS3027 Keyestudio Beetlebot 3 in 1 Robot for Pico STEM Education \\ 2.Python Tutorials\\ 2.python\_codes.  
 
-We can move the code anywhere.  For example, we can save the code in
-Disk(D) with the path D:\\2.Python\_Codes.  
+We can move the code anywhere.  For example, we can save the code in Disk(D) with the path D:\\2.Python\_Codes.  
 
 ![](raw.githubusercontent.com/keyestudio/KS3027-KS3027F-Keyestudio-Beetlebot-3-in-1-Robot-for-Raspberry-Pi-Pico-Python/master/media/53ad6dae1158e06978b3f04b448272e9.png)
 
-Open the "Thonny" software, click "This
-computer"→"D:"→"2.Python\_Codes"→"Project\_02\_6812\_RGB" .
+Open the "Thonny" software, click "This computer"→"D:"→"2.Python\_Codes"→"Project\_02\_6812\_RGB" .
 
-Select "neopixel.py" and right-click and select "Upload to /". Then the
-"neopixel.py" will be uploaded to the Raspberry Pi Pico, then left-click
-"Project\_02\_6812\_RGB.py"
+Select "neopixel.py" and right-click and select "Upload to /". Then the "neopixel.py" will be uploaded to the Raspberry Pi Pico, then left-click "Project\_02\_6812\_RGB.py"
 
 ![](raw.githubusercontent.com/keyestudio/KS3027-KS3027F-Keyestudio-Beetlebot-3-in-1-Robot-for-Raspberry-Pi-Pico-Python/master/media/621c8152e8d7ed65d59a0a101e132f7a.png)
 
@@ -639,14 +582,11 @@ Select "neopixel.py" and right-click and select "Upload to /". Then the
 
 4.  **Test Result：**
 
-Ensure that the Raspberry Pi Pico is connected to the computer and click
-![](raw.githubusercontent.com/keyestudio/KS3027-KS3027F-Keyestudio-Beetlebot-3-in-1-Robot-for-Raspberry-Pi-Pico-Python/master/media/27451c8a9c13e29d02bc0f5831cfaf1f.png)
+Ensure that the Raspberry Pi Pico is connected to the computer and click![](raw.githubusercontent.com/keyestudio/KS3027-KS3027F-Keyestudio-Beetlebot-3-in-1-Robot-for-Raspberry-Pi-Pico-Python/master/media/27451c8a9c13e29d02bc0f5831cfaf1f.png)
 
 ![](raw.githubusercontent.com/keyestudio/KS3027-KS3027F-Keyestudio-Beetlebot-3-in-1-Robot-for-Raspberry-Pi-Pico-Python/master/media/093cad871ab7100581bf8ce607076980.png) 
 
-Click "Run Current Script", the code starts to execute, we can see that
-the 4 RGB LED on the CAR PCB board will show red, green, blue, white
-then go off, the cycle goes on.  
+Click "Run Current Script", the code starts to execute, we can see that the 4 RGB LED on the CAR PCB board will show red, green, blue, white then go off, the cycle goes on.  
 
 ![](raw.githubusercontent.com/keyestudio/KS3027-KS3027F-Keyestudio-Beetlebot-3-in-1-Robot-for-Raspberry-Pi-Pico-Python/master/media/0d23e6891643e73ce98dc2f93def946d.jpeg)
 
@@ -654,36 +594,27 @@ then go off, the cycle goes on.  
 
 1.  **Description：**
 
-There is a power amplifier component on the expansion board, which is
-often used to play music and serve as an external amplifying device for
-music playback devices.
+There is a power amplifier component on the expansion board, which is often used to play music and serve as an external amplifying device for music playback devices.
 
-In this experiment, we use the speaker amplifier component to play
-music.
+In this experiment, we use the speaker amplifier component to play music.
 
 **2. Knowledge：**
 
-Power amplifier modules(equivalent to a passive buzzer) don’t have
-internal oscillation circuits.
+Power amplifier modules(equivalent to a passive buzzer) don’t have internal oscillation circuits.
 
-The power amplifier module can chime sounds with different frequency
-when power it up.
+The power amplifier module can chime sounds with different frequency when power it up.
 
 **3. Test Code**
 
-The speaker module of the PCB board is controlled by the GPIO 12 of the
-Raspberry Pi Pico.
+The speaker module of the PCB board is controlled by the GPIO 12 of the Raspberry Pi Pico.
 
-The code is saved in the KS3027 Keyestudio Beetlebot 3 in 1 Robot for
-Pico STEM Education \\ 2.Python Tutorials\\ 2.python\_codes.  
+The code is saved in the KS3027 Keyestudio Beetlebot 3 in 1 Robot for Pico STEM Education \\ 2.Python Tutorials\\ 2.python\_codes.  
 
-We can move the code anywhere.  For example, we can save the code in
-Disk(D) with the path D:\\2.Python\_Codes.  
+We can move the code anywhere.  For example, we can save the code in Disk(D) with the path D:\\2.Python\_Codes.  
 
 ![](raw.githubusercontent.com/keyestudio/KS3027-KS3027F-Keyestudio-Beetlebot-3-in-1-Robot-for-Raspberry-Pi-Pico-Python/master/media/53ad6dae1158e06978b3f04b448272e9.png)
 
-Open the "Thonny" software, click "This
-computer"→"D:"→"2.Python\_Codes"→"Project\_03\_Buzzer” .
+Open the "Thonny" software, click "This computer"→"D:"→"2.Python\_Codes"→"Project\_03\_Buzzer” .
 
 Double-click“Project\_03\_Buzzer.py”
 
@@ -716,17 +647,12 @@ Double-click“Project\_03\_Buzzer.py”
 
 **4. Test Result：**
 
-Ensure that the Raspberry Pi Pico is connected to the computer and click
-![](raw.githubusercontent.com/keyestudio/KS3027-KS3027F-Keyestudio-Beetlebot-3-in-1-Robot-for-Raspberry-Pi-Pico-Python/master/media/27451c8a9c13e29d02bc0f5831cfaf1f.png).
- 
+Ensure that the Raspberry Pi Pico is connected to the computer and click![](raw.githubusercontent.com/keyestudio/KS3027-KS3027F-Keyestudio-Beetlebot-3-in-1-Robot-for-Raspberry-Pi-Pico-Python/master/media/27451c8a9c13e29d02bc0f5831cfaf1f.png).
+
 
 ![](raw.githubusercontent.com/keyestudio/KS3027-KS3027F-Keyestudio-Beetlebot-3-in-1-Robot-for-Raspberry-Pi-Pico-Python/master/media/09e2ac09527a760058ebdb95bcd97132.png)
 
-Click "Run Current Script", the code starts to execute, we will see the
-car PCB speaker amplifier components start to beep. Press“Ctrl+C”or
-click
-![](raw.githubusercontent.com/keyestudio/KS3027-KS3027F-Keyestudio-Beetlebot-3-in-1-Robot-for-Raspberry-Pi-Pico-Python/master/media/27451c8a9c13e29d02bc0f5831cfaf1f.png)
-to exit the program.  
+Click "Run Current Script", the code starts to execute, we will see the car PCB speaker amplifier components start to beep. Press“Ctrl+C”or click ![](raw.githubusercontent.com/keyestudio/KS3027-KS3027F-Keyestudio-Beetlebot-3-in-1-Robot-for-Raspberry-Pi-Pico-Python/master/media/27451c8a9c13e29d02bc0f5831cfaf1f.png) to exit the program.  
 
 ![](raw.githubusercontent.com/keyestudio/KS3027-KS3027F-Keyestudio-Beetlebot-3-in-1-Robot-for-Raspberry-Pi-Pico-Python/master/media/0c97256e014e470050fe35707a074a51.png)
 
@@ -734,34 +660,20 @@ to exit the program.  
 
 **1.Description:**
 
-Composed of LED emitting tube diodes, the 8\*8 LED dot matrix are
-applied widely to public information display like bus station,
-advertising screen, bank window screen, stop screen and parking system,
-etc, by controlling LED to show words, pictures and videos, etc.
+Composed of LED emitting tube diodes, the 8\*8 LED dot matrix are applied widely to public information display like bus station,
+advertising screen, bank window screen, stop screen and parking system, etc, by controlling LED to show words, pictures and videos, etc.
 
-In this experiment, the 8\*8 dot matrix screens will be used to display
-patterns.  
+In this experiment, the 8\*8 dot matrix screens will be used to display patterns.  
 
 **2.Knowledge:**
 
-8\*8 dot matrix screen: The LED dot matrix screen according to LED light
-color can be divided into monochrome, two-color, three-color lights,
-etc., which can display red, yellow, green and even true
-color.  According to the number of LED, it can be divided into 4×4,
-8×8, 16×16 and other different types.  Here we see how this works by
-using a monochrome 8×8 lattice screen.  
+8\*8 dot matrix screen: The LED dot matrix screen according to LED light color can be divided into monochrome, two-color, three-color lights, etc., which can display red, yellow, green and even true color.  According to the number of LED, it can be divided into 4×4, 8×8, 16×16 and other different types.  Here we see how this works by using a monochrome 8×8 lattice screen.  
 
-Different dot matrix screens are packaged differently. The 8×8 dot
-matrix screens are composed of 64 LED lights in 8 rows and 8 columns,
-and the inner structure of 8×8 dot matrix is shown below.
+Different dot matrix screens are packaged differently. The 8×8 dot matrix screens are composed of 64 LED lights in 8 rows and 8 columns, and the inner structure of 8×8 dot matrix is shown below.
 
 ![](raw.githubusercontent.com/keyestudio/KS3027-KS3027F-Keyestudio-Beetlebot-3-in-1-Robot-for-Raspberry-Pi-Pico-Python/master/media/df08c3a7c84497e429ce6fde7253d9b3.jpeg)
 
-Every LED is installed on the cross point of row line and column line.
-When the voltage on a row line increases, and the voltage on the column
-line reduces, the LED on the cross point will light up. The 8×8 dot
-matrix has 16 pins. Put the silk-screened side down and the numbers are
-1,-8, 9- 16 in anticlockwise order as marked below.
+Every LED is installed on the cross point of row line and column line. When the voltage on a row line increases, and the voltage on the column line reduces, the LED on the cross point will light up. The 8×8 dot matrix has 16 pins. Put the silk-screened side down and the numbers are 1,-8, 9- 16 in anticlockwise order as marked below.
 
 ![](raw.githubusercontent.com/keyestudio/KS3027-KS3027F-Keyestudio-Beetlebot-3-in-1-Robot-for-Raspberry-Pi-Pico-Python/master/media/6576aff8e8a7fb35335629c2f60de29b.jpeg)
 
@@ -769,23 +681,13 @@ The definition inner pins are shown below:
 
 ![](raw.githubusercontent.com/keyestudio/KS3027-KS3027F-Keyestudio-Beetlebot-3-in-1-Robot-for-Raspberry-Pi-Pico-Python/master/media/4b98c449bae6648d7719a58d9ab2efa7.jpeg)
 
-For instance, to light up the LED on row 1 and column 1, we should
-increase the voltage of pin 9 and reduce the voltage of pin 13.
+For instance, to light up the LED on row 1 and column 1, we should increase the voltage of pin 9 and reduce the voltage of pin 13.
 
-**HT16K33 8X8 Dot Matrix**:The above introduced the principle of 8\*8
-dot matrix, which requires up to 16 single chip pins to control
-it .  It's a waste of resources and time.  Here we use a chip that
-drives the dot matrix screen: HT16K33.  HT16K33 is a memory mapping and
-multi-function LED controller driver chip.  Using HT16K33 chip to drive
-an 8\*8 dot matrix, only the I2C communication port of MCU is used to
-control the dot matrix, which greatly saves the resources of MCU.  The
-following figure is the working principle diagram of HT16K33 chip.  
+**HT16K33 8X8 Dot Matrix**: The above introduced the principle of 8\*8 dot matrix, which requires up to 16 single chip pins to control it .  It's a waste of resources and time.  Here we use a chip that drives the dot matrix screen: HT16K33.  HT16K33 is a memory mapping and multi-function LED controller driver chip.  Using HT16K33 chip to drive an 8\*8 dot matrix, only the I2C communication port of MCU is used to control the dot matrix, which greatly saves the resources of MCU.  The following figure is the working principle diagram of HT16K33 chip.  
 
 ![](raw.githubusercontent.com/keyestudio/KS3027-KS3027F-Keyestudio-Beetlebot-3-in-1-Robot-for-Raspberry-Pi-Pico-Python/master/media/fa5b7bd0d5ce98dbd4cb392dfb0b95e7.png)
 
-2.  **Specification:**
-
-<!-- end list -->
+**3. Specification:**
 
   - Input voltage: 5V    
 
@@ -797,10 +699,7 @@ following figure is the working principle diagram of HT16K33 chip.  
     
     **4. Introduction for Modulus Tool**
 
-The principle of dot matrix and drive has been introduced,but how is the
-content displayed on the dot matrix come? Is there a relatively simple
-method?  Here to introduce a lattice modulus tool, this tool is used
-online, link: http://dotmatrixtool.com/\#
+The principle of dot matrix and drive has been introduced,but how is the content displayed on the dot matrix come? Is there a relatively simple method?  Here to introduce a lattice modulus tool, this tool is used online, link: http://dotmatrixtool.com/\#
 
 Let us see how to use it  together  now. 
 
@@ -808,8 +707,7 @@ Let us see how to use it  together  now. 
 
 ![](raw.githubusercontent.com/keyestudio/KS3027-KS3027F-Keyestudio-Beetlebot-3-in-1-Robot-for-Raspberry-Pi-Pico-Python/master/media/354693b5679a2615c62e99b7025d6355.png)
 
-②The dot matrix is 8\*8 in this project. So set the height to 8, width
-to 8; as shown below.
+②The dot matrix is 8\*8 in this project. So set the height to 8, width to 8; as shown below.
 
 ![](raw.githubusercontent.com/keyestudio/KS3027-KS3027F-Keyestudio-Beetlebot-3-in-1-Robot-for-Raspberry-Pi-Pico-Python/master/media/501ba516e4be9c8ec4ca6f37e2b6915f.png)
 
@@ -821,15 +719,11 @@ Click **Endian** to select **Big Endian(MSB)**
 
 ④ Generate the pattern into hexadecimal data
 
-As shown below, the left button of the mouse is for selection while the
-right is for canceling. Thus you could use them to draw the pattern you
-want, then click **Generate**, to yield the hexadecimal data needed.
+As shown below, the left button of the mouse is for selection while the right is for canceling. Thus you could use them to draw the pattern you want, then click **Generate**, to yield the hexadecimal data needed.
 
 ![](raw.githubusercontent.com/keyestudio/KS3027-KS3027F-Keyestudio-Beetlebot-3-in-1-Robot-for-Raspberry-Pi-Pico-Python/master/media/32e674da893cc93cd1330a9da73269cb.png)
 
-The generated hexadecimal code（0x00, 0x66, 0x00, 0x00, 0x18, 0x42, 0x3c,
-0x00) is what will be displayed, so we need to save it for next
-procedure.
+The generated hexadecimal code（0x00, 0x66, 0x00, 0x00, 0x18, 0x42, 0x3c, 0x00) is what will be displayed, so we need to save it for next procedure.
 
 3.  **Wiring up：**
 
@@ -843,22 +737,16 @@ procedure.
 
 4.  **Test Code**
     
-    The 8\*8 dot matrix is controlled by the GPIO20 (SDA) and GPIO21
-    (SCL) of the Raspberry Pi Pico motherboard.
+    The 8\*8 dot matrix is controlled by the GPIO20 (SDA) and GPIO21(SCL) of the Raspberry Pi Pico motherboard.
     
-    Go to the folder KS3027 Keyestudio Beetlebot 3 in 1 Robot for Pico
-    STEM Education\\2. Python Tutorials\\2.Python\_Codes, You can save
-    the code anywhere. For example, we save the code in the Disk(D)
+    Go to the folder KS3027 Keyestudio Beetlebot 3 in 1 Robot for Pico STEM Education\\2. Python Tutorials\\2.Python\_Codes, You can save the code anywhere. For example, we save the code in the Disk(D)
 
 ![](raw.githubusercontent.com/keyestudio/KS3027-KS3027F-Keyestudio-Beetlebot-3-in-1-Robot-for-Raspberry-Pi-Pico-Python/master/media/53ad6dae1158e06978b3f04b448272e9.png)
 
-Open“Thonny”, click“This
-computer”→“D:”→“2.Python\_Codes”→“Project\_04\_8×8\_Dot\_Matrix\_Display”
+Open“Thonny”, click “This computer”→“D:”→“2.Python\_Codes”→“Project\_04\_8×8\_Dot\_Matrix\_Display”
 .
 
-Select“ht16k33\_matrix.py”and“matrix\_fonts.py”, right-click“Upload to
-/”and upload them to the Pico board, then
-double-click“Project\_04\_8×8\_Dot\_Matrix\_Display.py”
+Select“ht16k33\_matrix.py”and“matrix\_fonts.py”, right-click“Upload to/” and upload them to the Pico board, then double-click“Project\_04\_8×8\_Dot\_Matrix\_Display.py”
 
 ![](raw.githubusercontent.com/keyestudio/KS3027-KS3027F-Keyestudio-Beetlebot-3-in-1-Robot-for-Raspberry-Pi-Pico-Python/master/media/a59d1ca2f09f597d535af96f6f972dda.png)
 
@@ -930,19 +818,12 @@ double-click“Project\_04\_8×8\_Dot\_Matrix\_Display.py”
 
 5.  **Test Result：**
 
-Ensure that the Raspberry Pi Pico is connected to the computer, and
-click
-![](raw.githubusercontent.com/keyestudio/KS3027-KS3027F-Keyestudio-Beetlebot-3-in-1-Robot-for-Raspberry-Pi-Pico-Python/master/media/27451c8a9c13e29d02bc0f5831cfaf1f.png).
+Ensure that the Raspberry Pi Pico is connected to the computer, and click![](raw.githubusercontent.com/keyestudio/KS3027-KS3027F-Keyestudio-Beetlebot-3-in-1-Robot-for-Raspberry-Pi-Pico-Python/master/media/27451c8a9c13e29d02bc0f5831cfaf1f.png).
 
 ![](raw.githubusercontent.com/keyestudio/KS3027-KS3027F-Keyestudio-Beetlebot-3-in-1-Robot-for-Raspberry-Pi-Pico-Python/master/media/97401410e723ca5b61261ab22079f7b9.png)
 
-Click
-![](raw.githubusercontent.com/keyestudio/KS3027-KS3027F-Keyestudio-Beetlebot-3-in-1-Robot-for-Raspberry-Pi-Pico-Python/master/media/da852227207616ccd9aff28f19e02690.png)
-"Run Current Script", the code starts to execute, and we will see that
-the 8\*8 dot matrix display character "A" 1S, display character "B" 1S,
-display character "C" 1S, then scroll display string "Hello World",
-repeat.  Press Ctrl+C or click Stop/Restart Backend to exit the program.
- 
+Click![](raw.githubusercontent.com/keyestudio/KS3027-KS3027F-Keyestudio-Beetlebot-3-in-1-Robot-for-Raspberry-Pi-Pico-Python/master/media/da852227207616ccd9aff28f19e02690.png) "Run Current Script", the code starts to execute, and we will see that the 8\*8 dot matrix display character "A" 1S, display character "B" 1S, display character "C" 1S, then scroll display string "Hello World", repeat.  Press Ctrl+C or click Stop/Restart Backend to exit the program.
+
 
 ![](raw.githubusercontent.com/keyestudio/KS3027-KS3027F-Keyestudio-Beetlebot-3-in-1-Robot-for-Raspberry-Pi-Pico-Python/master/media/880ffaa81958455b5a07d4b63f675da1.png)
 
@@ -950,43 +831,23 @@ repeat.  Press Ctrl+C or click Stop/Restart Backend to exit the program.
 
 1.  **Description：**
 
-There are two servos on the car. We take the servo connected to pin D9
-as an example.
+There are two servos on the car. We take the servo connected to pin D9 as an example.
 
-The servo is a motor that can rotate very accurately. It has been widely
-applied to toy cars, remote control helicopters, airplanes, robots and
-other fields. In this project, we will use the Nano motherboard to
-control the servo to spin.
+The servo is a motor that can rotate very accurately. It has been widely applied to toy cars, remote control helicopters, airplanes, robots and other fields. In this project, we will use the Nano motherboard to control the servo to spin.
 
 2.  **Knowledge:**
     
     ![](raw.githubusercontent.com/keyestudio/KS3027-KS3027F-Keyestudio-Beetlebot-3-in-1-Robot-for-Raspberry-Pi-Pico-Python/master/media/99830768916233a9c5900ac399006c17.png)
 
-Servo motor is a position control rotary actuator. It mainly consists of
-a housing, a circuit board, a core-less motor, a gear and a position
-sensor. Its working principle is that the servo receives the signal sent
-by MCU or receiver and produces a reference signal with a period of 20ms
-and width of 1.5ms, then compares the acquired DC bias voltage to the
-voltage of the potentiometer and obtain the voltage difference output.
+Servo motor is a position control rotary actuator. It mainly consists of a housing, a circuit board, a core-less motor, a gear and a position sensor. Its working principle is that the servo receives the signal sent by MCU or receiver and produces a reference signal with a period of 20ms and width of 1.5ms, then compares the acquired DC bias voltage to the voltage of the potentiometer and obtain the voltage difference output.
 
-When the motor speed is constant, the potentiometer is driven to rotate
-through the cascade reduction gear, which leads that the voltage
-difference is 0, and the motor stops rotating. Generally, the angle
-range of servo rotation is 0° --180 °
+When the motor speed is constant, the potentiometer is driven to rotate through the cascade reduction gear, which leads that the voltage difference is 0, and the motor stops rotating. Generally, the angle range of servo rotation is 0° --180 °
 
-The rotation angle of servo motor is controlled by regulating the duty
-cycle of PWM (Pulse-Width Modulation) signal. The standard cycle of PWM
-signal is 20ms (50Hz). Theoretically, the width is distributed
-between 1ms-2ms, but in fact, it's between 0.5ms-2.5ms. The width
-corresponds the rotation angle from 0° to 180°. But note that for
-different brand motors, the same signal may have different rotation
-angles. 
+The rotation angle of servo motor is controlled by regulating the duty cycle of PWM (Pulse-Width Modulation) signal. The standard cycle of PWM signal is 20ms (50Hz). Theoretically, the width is distributed between 1ms-2ms, but in fact, it's between 0.5ms-2.5ms. The width corresponds the rotation angle from 0° to 180°. But note that for different brand motors, the same signal may have different rotation angles. 
 
 ![](raw.githubusercontent.com/keyestudio/KS3027-KS3027F-Keyestudio-Beetlebot-3-in-1-Robot-for-Raspberry-Pi-Pico-Python/master/media/708316fde05c62113a3024e0efb0c237.jpeg)
 
-In general, servo has three lines in brown, red and orange. The brown
-wire is grounded, the red one is a positive pole line and the orange one
-is a signal line.
+In general, servo has three lines in brown, red and orange. The brown wire is grounded, the red one is a positive pole line and the orange one is a signal line.
 
 ![](raw.githubusercontent.com/keyestudio/KS3027-KS3027F-Keyestudio-Beetlebot-3-in-1-Robot-for-Raspberry-Pi-Pico-Python/master/media/35084ae289a08e35bdb8c89ceb134ba4.png)
 
@@ -1001,17 +862,13 @@ is a signal line.
 
 4.  **Test Code 1：**
 
-The servo of the ultrasonic sensor is controlled by the GPIO9 of the
-Pico board.
+The servo of the ultrasonic sensor is controlled by the GPIO9 of the Pico board.
 
-Go to the folder KS3027 Keyestudio Beetlebot 3 in 1 Robot for Pico STEM
-Education\\2. Python Tutorials\\2.Python\_Codes, You can save the code
-anywhere. For example, we save the code in the Disk(D).
+Go to the folder KS3027 Keyestudio Beetlebot 3 in 1 Robot for Pico STEM Education\\2. Python Tutorials\\2.Python\_Codes, You can save the code anywhere. For example, we save the code in the Disk(D).
 
 ![](raw.githubusercontent.com/keyestudio/KS3027-KS3027F-Keyestudio-Beetlebot-3-in-1-Robot-for-Raspberry-Pi-Pico-Python/master/media/53ad6dae1158e06978b3f04b448272e9.png)
 
-Open“Thonny”, click“This
-computer”→“D:”→“2.Python\_Codes”→“Project\_05.1\_Servo\_Rotate.py”
+Open“Thonny”, click “This computer”→“D:”→“2.Python\_Codes”→“Project\_05.1\_Servo\_Rotate.py”
 
 ![](raw.githubusercontent.com/keyestudio/KS3027-KS3027F-Keyestudio-Beetlebot-3-in-1-Robot-for-Raspberry-Pi-Pico-Python/master/media/e6b9198b963782b0e4bbf7d921b7c48e.png)
 
@@ -1054,28 +911,22 @@ computer”→“D:”→“2.Python\_Codes”→“Project\_05.1\_Servo\_Rotate
 
 5.  **Test Result 1:**
 
-Ensure that the Raspberry Pi Pico is connected to the computer, and
-click
-![](raw.githubusercontent.com/keyestudio/KS3027-KS3027F-Keyestudio-Beetlebot-3-in-1-Robot-for-Raspberry-Pi-Pico-Python/master/media/27451c8a9c13e29d02bc0f5831cfaf1f.png).
+Ensure that the Raspberry Pi Pico is connected to the computer, and click![](raw.githubusercontent.com/keyestudio/KS3027-KS3027F-Keyestudio-Beetlebot-3-in-1-Robot-for-Raspberry-Pi-Pico-Python/master/media/27451c8a9c13e29d02bc0f5831cfaf1f.png).
 
 ![](raw.githubusercontent.com/keyestudio/KS3027-KS3027F-Keyestudio-Beetlebot-3-in-1-Robot-for-Raspberry-Pi-Pico-Python/master/media/6db68799bd64fd7c1e0428dbba07d707.png)
 
 Place batteries in the battery holder and turn the power switch to the
 ON endand then click "Run Current Script". We will see that servo rotate
 0°→45°→90°→135°→180° in loop way. Press"Ctrl+C" or click
-![](raw.githubusercontent.com/keyestudio/KS3027-KS3027F-Keyestudio-Beetlebot-3-in-1-Robot-for-Raspberry-Pi-Pico-Python/master/media/27451c8a9c13e29d02bc0f5831cfaf1f.png)
-to exit the program.
+![](raw.githubusercontent.com/keyestudio/KS3027-KS3027F-Keyestudio-Beetlebot-3-in-1-Robot-for-Raspberry-Pi-Pico-Python/master/media/27451c8a9c13e29d02bc0f5831cfaf1f.png) to exit the program.
 
 **Test Code 2:**
 
-Go to the folder KS3027 Keyestudio Beetlebot 3 in 1 Robot for Pico STEM
-Education\\2. Python Tutorials\\2.Python\_Codes, You can save the code
-anywhere. For example, we save the code in the Disk(D).
+Go to the folder KS3027 Keyestudio Beetlebot 3 in 1 Robot for Pico STEM Education\\2. Python Tutorials\\2.Python\_Codes, You can save the code anywhere. For example, we save the code in the Disk(D).
 
 ![](raw.githubusercontent.com/keyestudio/KS3027-KS3027F-Keyestudio-Beetlebot-3-in-1-Robot-for-Raspberry-Pi-Pico-Python/master/media/53ad6dae1158e06978b3f04b448272e9.png)
 
-Open“Thonny”and click This
-computer”→“D:”→“2.Python\_Codes”→“Project\_05\_Servo”
+Open“Thonny”and click This computer”→“D:”→“2.Python\_Codes”→“Project\_05\_Servo”
 
 Select myservo.py and right-click Upload to /
 
@@ -1109,17 +960,11 @@ Then double-click Project\_05.2\_Servo\_Sweep.py
 
 **Test Result 2：**
 
-Connect the Pico board to your computer and
-click![](raw.githubusercontent.com/keyestudio/KS3027-KS3027F-Keyestudio-Beetlebot-3-in-1-Robot-for-Raspberry-Pi-Pico-Python/master/media/27451c8a9c13e29d02bc0f5831cfaf1f.png)“Stop/Restart
-backend”
+Connect the Pico board to your computer and click![](raw.githubusercontent.com/keyestudio/KS3027-KS3027F-Keyestudio-Beetlebot-3-in-1-Robot-for-Raspberry-Pi-Pico-Python/master/media/27451c8a9c13e29d02bc0f5831cfaf1f.png)“Stop/Restart backend”
 
 ![](raw.githubusercontent.com/keyestudio/KS3027-KS3027F-Keyestudio-Beetlebot-3-in-1-Robot-for-Raspberry-Pi-Pico-Python/master/media/3eca30207855b870f594a6bba6413bf7.png)
 
-Place batteries in the battery holder and turn the power switch to the
-ON end and click "Run Current Script", we will see that servo rotate
-from 0° to 180°then from 180° to 0°constantly. Press "Ctrl+C" or click
-![](raw.githubusercontent.com/keyestudio/KS3027-KS3027F-Keyestudio-Beetlebot-3-in-1-Robot-for-Raspberry-Pi-Pico-Python/master/media/27451c8a9c13e29d02bc0f5831cfaf1f.png)"Stop/Restart
-Backend" to exit the program.
+Place batteries in the battery holder and turn the power switch to the ON end and click "Run Current Script", we will see that servo rotate from 0° to 180°then from 180° to 0°constantly. Press "Ctrl+C" or click![](raw.githubusercontent.com/keyestudio/KS3027-KS3027F-Keyestudio-Beetlebot-3-in-1-Robot-for-Raspberry-Pi-Pico-Python/master/media/27451c8a9c13e29d02bc0f5831cfaf1f.png)"Stop/Restart Backend" to exit the program.
 
 ![](raw.githubusercontent.com/keyestudio/KS3027-KS3027F-Keyestudio-Beetlebot-3-in-1-Robot-for-Raspberry-Pi-Pico-Python/master/media/255338bbcca87fb1ca6059fcbf96dfbc.png)
 
@@ -1127,34 +972,21 @@ Backend" to exit the program.
 
 1.  **Description：**
 
-There are many ways to drive motors. This car uses the most commonly
-used DRV8833 motor driver chip, which provides a dual-channel bridge
-electric driver for toys, printers and other motor integration
-applications.
+There are many ways to drive motors. This car uses the most commonly used DRV8833 motor driver chip, which provides a dual-channel bridge electric driver for toys, printers and other motor integration applications.
 
-In this experiment, we use the DRV8833 motor driver chip on the
-expansion board to drive the two DC motors, and demonstrate the effect
-of forward, backward, left-turning, and right-turning.
+In this experiment, we use the DRV8833 motor driver chip on the expansion board to drive the two DC motors, and demonstrate the effect of forward, backward, left-turning, and right-turning.
 
 2.  **Knowledge：**
 
-DRV8833 motor driver chip: Dual H-bridge motor driver with current
-control function, can drive two DC motors, one bipolar stepper motor,
-solenoid valve or other inductive loads. Each H-bridge includes
-circuitry to regulate or limit winding current.
+DRV8833 motor driver chip: Dual H-bridge motor driver with current control function, can drive two DC motors, one bipolar stepper motor, solenoid valve or other inductive loads. Each H-bridge includes circuitry to regulate or limit winding current.
 
-An internal shutdown function with a fault output pin is used for
-over-current and short circuit protection, under-voltage lockout and
-over-temperature. A low-power sleep mode is also added. Let's take a
-look at the schematic diagram of the DRV8833 motor driver chip driving
-two DC motors:
+An internal shutdown function with a fault output pin is used for over-current and short circuit protection, under-voltage lockout and over-temperature. A low-power sleep mode is also added. Let's take a look at the schematic diagram of the DRV8833 motor driver chip driving two DC motors:
 
 ![](raw.githubusercontent.com/keyestudio/KS3027-KS3027F-Keyestudio-Beetlebot-3-in-1-Robot-for-Raspberry-Pi-Pico-Python/master/media/bc839fa0f37fdc3003485b0398dd6d1f.png)
 
 ![](raw.githubusercontent.com/keyestudio/KS3027-KS3027F-Keyestudio-Beetlebot-3-in-1-Robot-for-Raspberry-Pi-Pico-Python/master/media/9cb8b7c00f814e367040f2ed4a3c9f4a.png)
 
-If you want to get insight to it, you can check the specification of
-this chip. Just browse it in the“Attachments”folder.
+If you want to get insight to it, you can check the specification of this chip. Just browse it in the“Attachments”folder.
 
 ![](raw.githubusercontent.com/keyestudio/KS3027-KS3027F-Keyestudio-Beetlebot-3-in-1-Robot-for-Raspberry-Pi-Pico-Python/master/media/a2e2b9dde37868ae2233946edb5b5b07.png)
 
@@ -1174,19 +1006,15 @@ Motor speed: 5V 200 rpm / min
 
 Motor drive form: dual H-bridge drive
 
-Control signal input level: high level 2.3V\<Vin\<5V, low level
--0.3V\<Vin\<1.5V
+Control signal input level: high level 2.3V\<Vin\<5V, low level -0.3V\<Vin\<1.5V
 
 Working temperature: -25\~130℃
 
 **4. Drive the car to move**
 
-From the above diagram, the direction pin of the left motor is GPIO15;
-the speed pin is GPIO17; GPIO14 is the direction pin of the right motor;
-and GPIO16 is speed pin.
+From the above diagram, the direction pin of the left motor is GPIO15; the speed pin is GPIO17; GPIO14 is the direction pin of the right motor; and GPIO16 is speed pin.
 
-PWM drives the robot car. The PWM value is in the range of 0-65535. The
-more the PWM value is set, the faster the rotation of the motor.
+PWM drives the robot car. The PWM value is in the range of 0-65535. The more the PWM value is set, the faster the rotation of the motor.
 
 |            |        |                       |               |        |                       |               |
 | ---------- | ------ | --------------------- | ------------- | ------ | --------------------- | ------------- |
@@ -1197,16 +1025,13 @@ more the PWM value is set, the faster the rotation of the motor.
 | Turn right | 1      | 32768                 | clockwise     | 0      | 50000                 | anticlockwise |
 | Stop       | 0      | 0                     | stop          | 0      | 0                     | stop          |
 
-**Test Code**
+**5. Test Code**
 
-Go to the folder KS3027 Keyestudio Beetlebot 3 in 1 Robot for Pico STEM
-Education\\2. Python Tutorials\\2.Python\_Codes, You can save the code
-anywhere. For example, we save the code in the Disk(D)
+Go to the folder KS3027 Keyestudio Beetlebot 3 in 1 Robot for Pico STEM Education\\2. Python Tutorials\\2.Python\_Codes, You can save the code anywhere. For example, we save the code in the Disk(D)
 
 ![](raw.githubusercontent.com/keyestudio/KS3027-KS3027F-Keyestudio-Beetlebot-3-in-1-Robot-for-Raspberry-Pi-Pico-Python/master/media/53ad6dae1158e06978b3f04b448272e9.png)
 
-Open“Thonny”, click“This
-computer”→“D:”→“2.Python\_Codes”→“Project\_06\_Motor\_Drive\_And\_Speed\_Regulation”
+Open “Thonny”, click “This computer”→“D:”→“2.Python\_Codes”→“Project\_06\_Motor\_Drive\_And\_Speed\_Regulation”
 
 ![](raw.githubusercontent.com/keyestudio/KS3027-KS3027F-Keyestudio-Beetlebot-3-in-1-Robot-for-Raspberry-Pi-Pico-Python/master/media/ce3c245c4daf4c97522bc6087bac98c0.png)
 
@@ -1271,79 +1096,45 @@ computer”→“D:”→“2.Python\_Codes”→“Project\_06\_Motor\_Drive\_A
 </tbody>
 </table>
 
-6.  **Text Result**
+6.  **Test Result**
 
-Ensure that the Raspberry Pi Pico is connected to the computer, and
-click
-![](raw.githubusercontent.com/keyestudio/KS3027-KS3027F-Keyestudio-Beetlebot-3-in-1-Robot-for-Raspberry-Pi-Pico-Python/master/media/27451c8a9c13e29d02bc0f5831cfaf1f.png)“Stop/Restart
-backend”.
+Ensure that the Raspberry Pi Pico is connected to the computer, and click![](raw.githubusercontent.com/keyestudio/KS3027-KS3027F-Keyestudio-Beetlebot-3-in-1-Robot-for-Raspberry-Pi-Pico-Python/master/media/27451c8a9c13e29d02bc0f5831cfaf1f.png)“Stop/Restart backend”.
 
 ![](raw.githubusercontent.com/keyestudio/KS3027-KS3027F-Keyestudio-Beetlebot-3-in-1-Robot-for-Raspberry-Pi-Pico-Python/master/media/030a30863b40511c78e1dedc17a399d8.png)
 
-Place batteries in the battery holder and turn the power switch to the
-ON end and click "Run Current Script"
+Place batteries in the battery holder and turn the power switch to the ON end and click "Run Current Script"
 
-The car moves forward for 2 seconds, backward for 2 seconds, turns left
-for 2 seconds, turns right for 2 seconds, stops for 2 seconds,
-constantly. Press Ctrl+C or click
-![](raw.githubusercontent.com/keyestudio/KS3027-KS3027F-Keyestudio-Beetlebot-3-in-1-Robot-for-Raspberry-Pi-Pico-Python/master/media/27451c8a9c13e29d02bc0f5831cfaf1f.png)
+The car moves forward for 2 seconds, backward for 2 seconds, turns left for 2 seconds, turns right for 2 seconds, stops for 2 seconds, constantly. Press Ctrl+C or click![](raw.githubusercontent.com/keyestudio/KS3027-KS3027F-Keyestudio-Beetlebot-3-in-1-Robot-for-Raspberry-Pi-Pico-Python/master/media/27451c8a9c13e29d02bc0f5831cfaf1f.png)
 to exit the program.  
 
 ![](raw.githubusercontent.com/keyestudio/KS3027-KS3027F-Keyestudio-Beetlebot-3-in-1-Robot-for-Raspberry-Pi-Pico-Python/master/media/118ab605ba728ee8c916376d53298761.png)
 
 ### Project 7: Ultrasonic Sensor
 
-There is an ultrasonic sensor on the car. It is a very affordable
-distance-measuring sensor.
+There is an ultrasonic sensor on the car. It is a very affordable distance-measuring sensor.
 
-The ultrasonic sensor sends a high-frequency ultrasonic signal that
-human hearing can’t hear. When encountering obstacles, these signals
-will be reflected back immediately. After receiving the returned
-information, the distance between the sensor and the obstacle will be
-calculated by judging the time difference between the transmitted signal
-and the received signal. It is mainly used for object avoidance and
-ranging in various robotics projects.
+The ultrasonic sensor sends a high-frequency ultrasonic signal that human hearing can’t hear. When encountering obstacles, these signals will be reflected back immediately. After receiving the returned information, the distance between the sensor and the obstacle will be calculated by judging the time difference between the transmitted signal and the received signal. It is mainly used for object avoidance and ranging in various robotics projects.
 
 ### Project 7.1: Ultrasonic Ranging
 
 **1.Description：**
 
-In this experiment, we use an ultrasonic sensor to measure distance and
-print the data on a serial monitor.
+In this experiment, we use an ultrasonic sensor to measure distance and print the data on a serial monitor.
 
-2.  **Knowledge：**
+**2. Knowledge：**
 
-The HC-SR04 ultrasonic sensor uses sonar to determine distance to an
-object like what bats do. It offers excellent non-contact range
-detection with high accuracy and stable readings in an easy-to-use
-package. It comes complete with ultrasonic transmitter and receiver
-modules.
+The HC-SR04 ultrasonic sensor uses sonar to determine distance to an object like what bats do. It offers excellent non-contact range detection with high accuracy and stable readings in an easy-to-use package. It comes complete with ultrasonic transmitter and receiver modules.
 
-In front of the ultrasonic sensor are two metal cylinders, and these are
-converters, which converts mechanical energy into electrical
-signals.  In ultrasonic sensors, there are transmitting converters and
-receiving converters.  
+In front of the ultrasonic sensor are two metal cylinders, and these are converters, which converts mechanical energy into electrical signals.  In ultrasonic sensors, there are transmitting converters and receiving converters.  
 
-The transmitting converters transform electrical signals into ultrasonic
-pulses and the receiving converters transform reflected ultrasonic
-pulses back to electrical signals.  If we look at the back of the
-ultrasonic sensor, we'll see an IC behind the transmitter,
-which controls the transmitting converter.  There is also an IC behind
-the receiving converter, which is a quad operational amplifier that
-amplifies the signal generated by the receiving converter into a signal
-large enough to transmit to the Arduino.  
+The transmitting converters transform electrical signals into ultrasonic pulses and the receiving converters transform reflected ultrasonic pulses back to electrical signals.  If we look at the back of the ultrasonic sensor, we'll see an IC behind the transmitter,
+which controls the transmitting converter.  There is also an IC behind the receiving converter, which is a quad operational amplifier that amplifies the signal generated by the receiving converter into a signal large enough to transmit to the Arduino.  
 
 ![](raw.githubusercontent.com/keyestudio/KS3027-KS3027F-Keyestudio-Beetlebot-3-in-1-Robot-for-Raspberry-Pi-Pico-Python/master/media/e6f6037071e434febf7090b56ac35802.png)
 
 **3.Sequence Diagram**
 
-The sequence diagram of HC-SR04 is shown below. In order to begin
-measurement, the Trig of the SR04 must receive a high pulse (5V) of at
-least 10uS,which will trigger the sensor to emit eight cycles of 40kHz
-ultrasonic pulse and wait for the reflected ultrasonic pulse.  When the
-sensor detects an ultrasonic wave from the receiver, it sets the echo
-pin to high (5V) and delay to one cycle (width), proportional to the
-distance. To get the distance, measure the width of the Echo pin.  
+The sequence diagram of HC-SR04 is shown below. In order to begin measurement, the Trig of the SR04 must receive a high pulse (5V) of at least 10uS,which will trigger the sensor to emit eight cycles of 40kHz ultrasonic pulse and wait for the reflected ultrasonic pulse.  When the sensor detects an ultrasonic wave from the receiver, it sets the echo pin to high (5V) and delay to one cycle (width), proportional to the distance. To get the distance, measure the width of the Echo pin.  
 
 ![](raw.githubusercontent.com/keyestudio/KS3027-KS3027F-Keyestudio-Beetlebot-3-in-1-Robot-for-Raspberry-Pi-Pico-Python/master/media/4114885ac4b6214953e3224d8c1d52c4.png)
 
@@ -1357,13 +1148,9 @@ Distance(inch)=time/ 148
 
 The HC-SR04 ultrasonic sensor has four pins: Vcc, Trig, Echo and GND.
 
-The Vcc pin provides power generating ultrasonic pulses and is connected
-to Vcc/+5V. The GND pin is grounded/GND.
+The Vcc pin provides power generating ultrasonic pulses and is connected to Vcc/+5V. The GND pin is grounded/GND.
 
-The Trig pin is where the Arduino sends a signal to start the ultrasonic
-pulse. The Echo pin is where the ultrasonic sensor sends information
-about the duration of the ultrasonic pulse stroke to the Arduino control
-board.
+The Trig pin is where the Arduino sends a signal to start the ultrasonic pulse. The Echo pin is where the ultrasonic sensor sends information about the duration of the ultrasonic pulse stroke to the Arduino control board.
 
 **4.Wiring Up**
 
@@ -1377,17 +1164,13 @@ board.
 
 **Test Code**
 
-The pin Trig and Echo of the ultrasonic sensor are controlled by the
-GPIO10 and GPIO11 of the pico board.
+The pin Trig and Echo of the ultrasonic sensor are controlled by the GPIO10 and GPIO11 of the pico board.
 
-Go to the folder KS3027 Keyestudio Beetlebot 3 in 1 Robot for Pico STEM
-Education\\2. Python Tutorials\\2.Python\_Codes, You can save the code
-anywhere. For example, we save the code in the Disk(D).
+Go to the folder KS3027 Keyestudio Beetlebot 3 in 1 Robot for Pico STEM Education\\2. Python Tutorials\\2.Python\_Codes, You can save the code anywhere. For example, we save the code in the Disk(D).
 
 ![](raw.githubusercontent.com/keyestudio/KS3027-KS3027F-Keyestudio-Beetlebot-3-in-1-Robot-for-Raspberry-Pi-Pico-Python/master/media/53ad6dae1158e06978b3f04b448272e9.png)
 
-Click Thonny and click This
-computer”→“D:”→“2.Python\_Codes”→“Project\_07.1\_Ultrasonic\_Ranging”
+Click Thonny and click This computer”→“D:”→“2.Python\_Codes”→“Project\_07.1\_Ultrasonic\_Ranging”
 
 Double-click Project\_07.1\_Ultrasonic\_Ranging.py
 
@@ -1432,19 +1215,15 @@ Double-click Project\_07.1\_Ultrasonic\_Ranging.py
 </tbody>
 </table>
 
-6.  **Text Result**
+6.  **Test Result**
 
-Ensure the Raspberry Pi Pico is connected to the computer，and
-click“Stop/Restart backend”.
+Ensure the Raspberry Pi Pico is connected to the computer，and click“Stop/Restart backend”.
 
 ![](raw.githubusercontent.com/keyestudio/KS3027-KS3027F-Keyestudio-Beetlebot-3-in-1-Robot-for-Raspberry-Pi-Pico-Python/master/media/2771589d12c58a183b1f0d9bf3721b25.png)
 
-Place batteries in the battery holder and turn the power switch to the
-ON end and click "Run Current Script"
+Place batteries in the battery holder and turn the power switch to the ON end and click "Run Current Script"
 
-We will see that the distance value between the ultrasonic sensor and
-the object will be printed in the "Shell" window under Thonny IDE. Press
-“Ctrl+C” or click “Stop/Restart Backend” to exit the program.
+We will see that the distance value between the ultrasonic sensor and the object will be printed in the "Shell" window under Thonny IDE. Press “Ctrl+C” or click “Stop/Restart Backend” to exit the program.
 
 ![](raw.githubusercontent.com/keyestudio/KS3027-KS3027F-Keyestudio-Beetlebot-3-in-1-Robot-for-Raspberry-Pi-Pico-Python/master/media/48dc9960039e95502da922fe807320f7.png)
 
@@ -1454,13 +1233,7 @@ the object will be printed in the "Shell" window under Thonny IDE. Press
 
 **1.Description：**
 
-In the above experiments, we have learned about the 8\*8 dot matrix,
-motor drivers and speed regulation, ultrasonic sensors, servos and other
-hardware. In this experiment, we will combine them to create a follow
-car with the ultrasonic sensor. The can can follow an object to move
-through
-
-measuring distance.
+In the above experiments, we have learned about the 8\*8 dot matrix, motor drivers and speed regulation, ultrasonic sensors, servos and other hardware. In this experiment, we will combine them to create a follow car with the ultrasonic sensor. The can can follow an object to move through measuring distance.
 
 **2. Working Principle：**
 
@@ -1482,14 +1255,11 @@ measuring distance.
 
 **4.Test Code**
 
-Go to the folder KS3027 Keyestudio Beetlebot 3 in 1 Robot for Pico STEM
-Education\\2. Python Tutorials\\2.Python\_Codes, You can save the code
-anywhere. For example, we save the code in the Disk(D)
+Go to the folder KS3027 Keyestudio Beetlebot 3 in 1 Robot for Pico STEM Education\\2. Python Tutorials\\2.Python\_Codes, You can save the code anywhere. For example, we save the code in the Disk(D)
 
 ![](raw.githubusercontent.com/keyestudio/KS3027-KS3027F-Keyestudio-Beetlebot-3-in-1-Robot-for-Raspberry-Pi-Pico-Python/master/media/53ad6dae1158e06978b3f04b448272e9.png)
 
-Click Thonny and click This
-computer”→“D:”→“2.Python\_Codes”→“Project\_07.2\_Follow\_Me
+Click Thonny and click This computer”→“D:”→“2.Python\_Codes”→“Project\_07.2\_Follow\_Me
 
 Double-click Project\_07.2\_Follow\_Me.py
 
@@ -1590,31 +1360,21 @@ Double-click Project\_07.2\_Follow\_Me.py
 
 **5. Test Result：**
 
-Ensure the Raspberry Pi Pico is connected to the computer，and
-click“Stop/Restart backend”.
+Ensure the Raspberry Pi Pico is connected to the computer，and click“Stop/Restart backend”.
 
-Place batteries in the battery holder and turn the power switch to the
-ON end and click "Run Current Script".
+Place batteries in the battery holder and turn the power switch to the ON end and click "Run Current Script".
 
-We will see that the car can move with the movement of obstacles in
-front of it. Press Ctrl+C or click Stop/Restart Backend to exit the
-program.  
+We will see that the car can move with the movement of obstacles in front of it. Press Ctrl+C or click Stop/Restart Backend to exit the program.  
 
 ![](raw.githubusercontent.com/keyestudio/KS3027-KS3027F-Keyestudio-Beetlebot-3-in-1-Robot-for-Raspberry-Pi-Pico-Python/master/media/da1764ce61523145e91b42d8c1c51f7e.png)
 
 ![](raw.githubusercontent.com/keyestudio/KS3027-KS3027F-Keyestudio-Beetlebot-3-in-1-Robot-for-Raspberry-Pi-Pico-Python/master/media/e4b4586d9fa83d48d4dd534b5e017699.png)
 
-### Project 7.3: Dodge obstacles
+### Project 7.3: Dodge Obstacles
 
 **1.Description：**
 
-In the last experiment, we made an ultrasonic following car.  In fact,
-using the same hardware, we only needed to change one test code to
-change it into an obstacle avoidance car. But how to achieve it? Of
-course, it is also achieved through the range of ultrasonic sensors. The
-obstacle in front of the robot is detected by ultrasonic sensor, and
-then the direction of the robot movement is obtained according to the
-data.  
+In the last experiment, we made an ultrasonic following car.  In fact, using the same hardware, we only needed to change one test code to change it into an obstacle avoidance car. But how to achieve it? Of course, it is also achieved through the range of ultrasonic sensors. The obstacle in front of the robot is detected by ultrasonic sensor, and then the direction of the robot movement is obtained according to the data.  
 
 **2. Working Principle：**
 
@@ -1642,16 +1402,13 @@ data.  
 
 ![](raw.githubusercontent.com/keyestudio/KS3027-KS3027F-Keyestudio-Beetlebot-3-in-1-Robot-for-Raspberry-Pi-Pico-Python/master/media/62cafb9417859896368e046396c58495.png)
 
-**Test Code**
+**4. Test Code**
 
-Go to the folder KS3027 Keyestudio Beetlebot 3 in 1 Robot for Pico STEM
-Education\\2. Python Tutorials\\2.Python\_Codes, You can save the code
-anywhere. For example, we save the code in the Disk(D)
+Go to the folder KS3027 Keyestudio Beetlebot 3 in 1 Robot for Pico STEM Education\\2. Python Tutorials\\2.Python\_Codes, You can save the code anywhere. For example, we save the code in the Disk(D)
 
 ![](raw.githubusercontent.com/keyestudio/KS3027-KS3027F-Keyestudio-Beetlebot-3-in-1-Robot-for-Raspberry-Pi-Pico-Python/master/media/53ad6dae1158e06978b3f04b448272e9.png)
 
-Open“Thonny” and click This
-computer”→“D:”→“2.Python\_Codes”→“Project\_07.3\_Avoid\_Obstacles”，
+Open“Thonny” and click This computer”→“D:”→“2.Python\_Codes”→“Project\_07.3\_Avoid\_Obstacles”，
 
 Select “ht16k33\_matrix.py”and“matrix\_fonts.py” and click“Upload to /”.
 
@@ -1807,18 +1564,13 @@ Then double-click“Project\_07.3\_Avoid\_Obstacles.py”
 </tr>
 </tbody>
 </table>
+**5. Test Result：**
 
-3.  **Test Result：**
+Ensure the Raspberry Pi Pico is connected to the computer，and click“Stop/Restart backend”.
 
-Ensure the Raspberry Pi Pico is connected to the computer，and
-click“Stop/Restart backend”.
+Place batteries in the battery holder and turn the power switch to the ON end and click "Run Current Script"
 
-Place batteries in the battery holder and turn the power switch to the
-ON end and click "Run Current Script"
-
-We will see that the car can avoid obstacles automatically when we put
-some obstacles around it. Press Ctrl+C or click Stop/Restart Backend to
-exit the program.  
+We will see that the car can avoid obstacles automatically when we put some obstacles around it. Press Ctrl+C or click Stop/Restart Backend to exit the program.  
 
 ![](raw.githubusercontent.com/keyestudio/KS3027-KS3027F-Keyestudio-Beetlebot-3-in-1-Robot-for-Raspberry-Pi-Pico-Python/master/media/d3eda9adf645f2c6b5a08c8bfc66f013.png)
 
@@ -1826,39 +1578,25 @@ exit the program.  
 
 ### Project 8: Line Tracking Sensor
 
-There are two IR line tracking sensors on the car. They are actually two
-pairs of ST188L3 infrared tubes and used to detect black and white
-lines. In this project, we will make a line tracking car.
+There are two IR line tracking sensors on the car. They are actually two pairs of ST188L3 infrared tubes and used to detect black and white lines. In this project, we will make a line tracking car.
 
 ### Project 8.1: Reading Values
 
 **1.Description：**
 
-In this experiment, we use ST188L3 infrared tubes to detect black and
-white lines, then print the data on the serial monitor.
+In this experiment, we use ST188L3 infrared tubes to detect black and white lines, then print the data on the serial monitor.
 
 **2. Knowledge：**
 
 **Infrared line tracking:**
 
-The IR line tracking sensor boasts a pair of ST188L3 infrared
-tubes,which has an infrared emitting diode and a receiver tube. When the
-emitting diode emits an infrared signal then received by the receiving
-tube after being reflected by the white object. Once the receiving tube
-receives the signal, the output terminal will output a low level (0);
-when the infrared emitting diode emits an infrared signal, and the
-infrared signal is absorbed by the black object, a high level (1) will
-be output, thus realizing the function of detecting signals through
-infrared rays.
+The IR line tracking sensor boasts a pair of ST188L3 infrared tubes,which has an infrared emitting diode and a receiver tube. When the emitting diode emits an infrared signal then received by the receiving tube after being reflected by the white object. Once the receiving tube receives the signal, the output terminal will output a low level (0); when the infrared emitting diode emits an infrared signal, and the infrared signal is absorbed by the black object, a high level (1) will be output, thus realizing the function of detecting signals through infrared rays.
 
-Warning: Reflective optical sensors (including IR line tracking sensors)
-shouldn not be applied under sunlight as there is a lot of invisible
-light such as infrared and ultraviolet.
+Warning: Reflective optical sensors (including IR line tracking sensors) should not be applied under sunlight as there is a lot of invisible light such as infrared and ultraviolet.
 
 Values detected by the line tracking sensor are shown in the table.
 
-The values of infrared tracking detection of objects with different
-colors in all cases. Where black object or no object is detected
+The values of infrared tracking detection of objects with different colors in all cases. Where black object or no object is detected
 represents 1, and white object is detected represents 0.  
 
 |      |       |                |
@@ -1871,17 +1609,13 @@ represents 1, and white object is detected represents 0.  
 
 **3. Test Code**
 
-The line tracking sensors of the PCB board are controlled by GPIO7 and
-GPIO8 of the pico board.
+The line tracking sensors of the PCB board are controlled by GPIO7 and GPIO8 of the pico board.
 
-Go to the folder KS3027 Keyestudio Beetlebot 3 in 1 Robot for Pico STEM
-Education\\2. Python Tutorials\\2.Python\_Codes, You can save the code
-anywhere. For example, we save the code in the Disk(D)
+Go to the folder KS3027 Keyestudio Beetlebot 3 in 1 Robot for Pico STEM Education\\2. Python Tutorials\\2.Python\_Codes, You can save the code anywhere. For example, we save the code in the Disk(D)
 
 ![](raw.githubusercontent.com/keyestudio/KS3027-KS3027F-Keyestudio-Beetlebot-3-in-1-Robot-for-Raspberry-Pi-Pico-Python/master/media/53ad6dae1158e06978b3f04b448272e9.png)
 
-Open“Thonny”, click“This
-computer”→“D:”→“2.Python\_Codes”→“Project\_08.1\_Tracking\_Sensor\_Read\_Value.py”
+Open “Thonny”, click “This computer”→“D:”→“2.Python\_Codes”→“Project\_08.1\_Tracking\_Sensor\_Read\_Value.py”
 .
 
 ![](raw.githubusercontent.com/keyestudio/KS3027-KS3027F-Keyestudio-Beetlebot-3-in-1-Robot-for-Raspberry-Pi-Pico-Python/master/media/9471c6df68dcd3f67727da13b3fb4a12.png)
@@ -1904,25 +1638,15 @@ computer”→“D:”→“2.Python\_Codes”→“Project\_08.1\_Tracking\_Sen
 
 **4.Test Result：**
 
-Ensure the Raspberry Pi Pico is connected to the computer, and
-click![](raw.githubusercontent.com/keyestudio/KS3027-KS3027F-Keyestudio-Beetlebot-3-in-1-Robot-for-Raspberry-Pi-Pico-Python/master/media/27451c8a9c13e29d02bc0f5831cfaf1f.png)“Stop/Restart
-backend”.
+Ensure the Raspberry Pi Pico is connected to the computer, and click![](raw.githubusercontent.com/keyestudio/KS3027-KS3027F-Keyestudio-Beetlebot-3-in-1-Robot-for-Raspberry-Pi-Pico-Python/master/media/27451c8a9c13e29d02bc0f5831cfaf1f.png)“Stop/Restart backend”.
 
 ![](raw.githubusercontent.com/keyestudio/KS3027-KS3027F-Keyestudio-Beetlebot-3-in-1-Robot-for-Raspberry-Pi-Pico-Python/master/media/cf6886e3c76f0b23a81887ce001d0e4b.png)
 
-Click
-![](raw.githubusercontent.com/keyestudio/KS3027-KS3027F-Keyestudio-Beetlebot-3-in-1-Robot-for-Raspberry-Pi-Pico-Python/master/media/da852227207616ccd9aff28f19e02690.png)“Run
-current script. Put a black object under line tracking sensors and move
-it, you will see indicator light up and the Shell show values detected
-by the IR line tracking sensor.
+Click![](raw.githubusercontent.com/keyestudio/KS3027-KS3027F-Keyestudio-Beetlebot-3-in-1-Robot-for-Raspberry-Pi-Pico-Python/master/media/da852227207616ccd9aff28f19e02690.png)“Run current script. Put a black object under line tracking sensors and move it, you will see indicator light up and the Shell show values detected by the IR line tracking sensor.
 
-Click Ctrl+C or click
-![](raw.githubusercontent.com/keyestudio/KS3027-KS3027F-Keyestudio-Beetlebot-3-in-1-Robot-for-Raspberry-Pi-Pico-Python/master/media/27451c8a9c13e29d02bc0f5831cfaf1f.png)“Stop/Restart
-backend”to exit the program.
+Click Ctrl+C or click![](raw.githubusercontent.com/keyestudio/KS3027-KS3027F-Keyestudio-Beetlebot-3-in-1-Robot-for-Raspberry-Pi-Pico-Python/master/media/27451c8a9c13e29d02bc0f5831cfaf1f.png)“Stop/Restart backend”to exit the program.
 
-The sensitivity can be adjusted by rotating the potentiometer. When the
-indicator light is adjusted to the critical point of on and off state,
-the sensitivity is the highest.
+The sensitivity can be adjusted by rotating the potentiometer. When the indicator light is adjusted to the critical point of on and off state, the sensitivity is the highest.
 
 ![](raw.githubusercontent.com/keyestudio/KS3027-KS3027F-Keyestudio-Beetlebot-3-in-1-Robot-for-Raspberry-Pi-Pico-Python/master/media/1c9dc0ebe3ffe4330ecb9df48ab74672.png)
 
@@ -1932,10 +1656,7 @@ the sensitivity is the highest.
 
 **1.Description：**
 
-We have introduced the knowledge of motor drivers, speed regulation, and
-infrared line tracking. In this experiment, the car will perform
-different actions according to the values transmitted by the infrared
-tracking.
+We have introduced the knowledge of motor drivers, speed regulation, and infrared line tracking. In this experiment, the car will perform different actions according to the values transmitted by the infrared tracking.
 
 2.  **Working Principle：**
 
@@ -1953,65 +1674,40 @@ tracking.
 
 4.  **Test Result：**
 
-Ensure the Raspberry Pi Pico is connected to the computer, and
-click![](raw.githubusercontent.com/keyestudio/KS3027-KS3027F-Keyestudio-Beetlebot-3-in-1-Robot-for-Raspberry-Pi-Pico-Python/master/media/27451c8a9c13e29d02bc0f5831cfaf1f.png)“Stop/Restart
-backend”.
+Ensure the Raspberry Pi Pico is connected to the computer, and click![](raw.githubusercontent.com/keyestudio/KS3027-KS3027F-Keyestudio-Beetlebot-3-in-1-Robot-for-Raspberry-Pi-Pico-Python/master/media/27451c8a9c13e29d02bc0f5831cfaf1f.png)“Stop/Restart backend”.
 
 ![](raw.githubusercontent.com/keyestudio/KS3027-KS3027F-Keyestudio-Beetlebot-3-in-1-Robot-for-Raspberry-Pi-Pico-Python/master/media/569d54b7df23878ac24bdb07a18af9de.png)
 
-Place batteries in the battery holder, turn the power switch to the ON
-end, power up and put the car on a map we provide.
+Place batteries in the battery holder, turn the power switch to the ON end, power up and put the car on a map we provide.
 
-Click“Run current script”，then it will perform different functions via
-values sent by line tracking sensors. Press Ctrl+C or click
-![](raw.githubusercontent.com/keyestudio/KS3027-KS3027F-Keyestudio-Beetlebot-3-in-1-Robot-for-Raspberry-Pi-Pico-Python/master/media/27451c8a9c13e29d02bc0f5831cfaf1f.png)
-to exit the program.  
+Click“Run current script”，then it will perform different functions via values sent by line tracking sensors. Press Ctrl+C or click
+![](raw.githubusercontent.com/keyestudio/KS3027-KS3027F-Keyestudio-Beetlebot-3-in-1-Robot-for-Raspberry-Pi-Pico-Python/master/media/27451c8a9c13e29d02bc0f5831cfaf1f.png) to exit the program.  
 
 ![](raw.githubusercontent.com/keyestudio/KS3027-KS3027F-Keyestudio-Beetlebot-3-in-1-Robot-for-Raspberry-Pi-Pico-Python/master/media/ced1dfcc06db40a7372c35beb3071758.png)
 
 ### Project 9: Light Following
 
-We all know that humans can look for light in the dark with their eyes,
-but how do robots do this?  For the robot to do this task, it first
-needs to be equipped with bright eyes, or light-sensitive sensors, so
-that the robot can find the light source by its strength. Our car is
-equipped with one photosensitive sensor on the left and the right.
+We all know that humans can look for light in the dark with their eyes, but how do robots do this?  For the robot to do this task, it first needs to be equipped with bright eyes, or light-sensitive sensors, so that the robot can find the light source by its strength. Our car is equipped with one photosensitive sensor on the left and the right.
 
-When the light intensity and weakness of the external environment
-change, the resistance of the photosensitive sensor also changes
-accordingly, and this change is transmitted to the Nano board on the
-car, which judges and thinks like the human brain, directs the car to
-find light. Two photosensitive sensors constantly detect whether there
-is light, detect the light on the left and right sides of the judgment
-of which direction the light is stronger, and finally direct the car to
-the direction of strong light.  
+When the light intensity and weakness of the external environment change, the resistance of the photosensitive sensor also changes accordingly, and this change is transmitted to the Nano board on the car, which judges and thinks like the human brain, directs the car to find light. Two photosensitive sensors constantly detect whether there is light, detect the light on the left and right sides of the judgment of which direction the light is stronger, and finally direct the car to the direction of strong light.  
 
 ### Project 9.1 Read Values
 
 1.  **Description：**
 
-In this experiment, we will learn the working principle of the
-photoresistor.
+In this experiment, we will learn the working principle of the photoresistor.
 
 **2. Knowledge：**
 
 **Photoresistor:**
 
-It mainly uses a photosensitive resistance element whose resistance
-varies from the light intensity. The signal terminal of the sensor is
-connected to the analog port of the microcontroller. When the light is
-stronger, the analog value at the analog port will increase; on the
-contrary, when the light intensity is weaker, the analog value of the
-microcontroller will reduce. In this way, the corresponding analog value
-can reflect the ambient light intensity.
+It mainly uses a photosensitive resistance element whose resistance varies from the light intensity. The signal terminal of the sensor is connected to the analog port of the microcontroller. When the light is stronger, the analog value at the analog port will increase; on the contrary, when the light intensity is weaker, the analog value of the microcontroller will reduce. In this way, the corresponding analog value can reflect the ambient light intensity.
 
 **3. Wire up：**
 
-Through the wiring-up diagram, signal pins of two photoresistors are
-connected to A6 and A7 of the Nano board.
+Through the wiring-up diagram, signal pins of two photoresistors are connected to A6 and A7 of the Nano board.
 
-For the following experiment, we use the photoresistor connected to A6
-to finish experiments. First, let us read analog values.
+For the following experiment, we use the photoresistor connected to A6 to finish experiments. First, let us read analog values.
 
 |                    |           |
 | ------------------ | --------- |
@@ -2020,18 +1716,15 @@ to finish experiments. First, let us read analog values.
 | V                  | V         |
 | S                  | S（GPIO26） |
 
-**Test Code**
+**4. Test Code**
 
 The left photoresistor is controlled by the GPIO26 of the pico board.
 
-Go to the folder KS3027 Keyestudio Beetlebot 3 in 1 Robot for Pico STEM
-Education\\2. Python Tutorials\\2.Python\_Codes, You can save the code
-anywhere. For example, we save the code in the Disk(D)
+Go to the folder KS3027 Keyestudio Beetlebot 3 in 1 Robot for Pico STEM Education\\2. Python Tutorials\\2.Python\_Codes, You can save the code anywhere. For example, we save the code in the Disk(D)
 
 ![](raw.githubusercontent.com/keyestudio/KS3027-KS3027F-Keyestudio-Beetlebot-3-in-1-Robot-for-Raspberry-Pi-Pico-Python/master/media/53ad6dae1158e06978b3f04b448272e9.png)
 
-Open“Thonny”, click“This
-computer”→“D:”→“2.Python\_Codes”→“Project\_09.1\_Read\_Photosensor\_Value”
+Open “Thonny”, click“This computer”→“D:”→“2.Python\_Codes”→“Project\_09.1\_Read\_Photosensor\_Value”
 
 ![](raw.githubusercontent.com/keyestudio/KS3027-KS3027F-Keyestudio-Beetlebot-3-in-1-Robot-for-Raspberry-Pi-Pico-Python/master/media/23630dcf5871c355dada5baec97cfa3d.png)
 
@@ -2053,20 +1746,13 @@ computer”→“D:”→“2.Python\_Codes”→“Project\_09.1\_Read\_Photose
 </tr>
 </tbody>
 </table>
+**5.Test Result：**
 
-**4.Test Result：**
-
-Ensure the Raspberry Pi Pico is connected to the computer and
-click![](raw.githubusercontent.com/keyestudio/KS3027-KS3027F-Keyestudio-Beetlebot-3-in-1-Robot-for-Raspberry-Pi-Pico-Python/master/media/27451c8a9c13e29d02bc0f5831cfaf1f.png)“Stop/Restart
-backend”.
+Ensure the Raspberry Pi Pico is connected to the computer and click![](raw.githubusercontent.com/keyestudio/KS3027-KS3027F-Keyestudio-Beetlebot-3-in-1-Robot-for-Raspberry-Pi-Pico-Python/master/media/27451c8a9c13e29d02bc0f5831cfaf1f.png)“Stop/Restart backend”.
 
 ![](raw.githubusercontent.com/keyestudio/KS3027-KS3027F-Keyestudio-Beetlebot-3-in-1-Robot-for-Raspberry-Pi-Pico-Python/master/media/d32c01936b81f7a73e72c3004e39f184.png)
 
-Click“Run current script”, we will see that when the light intensifies,
-the analog value will get increased; on the contrary, the analog value
-will get reduced. Press“Ctrl+C”or
-click![](raw.githubusercontent.com/keyestudio/KS3027-KS3027F-Keyestudio-Beetlebot-3-in-1-Robot-for-Raspberry-Pi-Pico-Python/master/media/27451c8a9c13e29d02bc0f5831cfaf1f.png)“Stop/Restart
-Backend”to exit the program.  
+Click“Run current script”, we will see that when the light intensifies, the analog value will get increased; on the contrary, the analog value will get reduced. Press“Ctrl+C”or click![](raw.githubusercontent.com/keyestudio/KS3027-KS3027F-Keyestudio-Beetlebot-3-in-1-Robot-for-Raspberry-Pi-Pico-Python/master/media/27451c8a9c13e29d02bc0f5831cfaf1f.png)“Stop/Restart Backend”to exit the program.  
 
 ![](raw.githubusercontent.com/keyestudio/KS3027-KS3027F-Keyestudio-Beetlebot-3-in-1-Robot-for-Raspberry-Pi-Pico-Python/master/media/d5408971cd4dcac6d79074abbc3181f0.png)
 
@@ -2076,9 +1762,7 @@ Backend”to exit the program.  
 
 1.  **Description：**
 
-We have learned the working principle of photoresistor, motor and speed
-regulation. In this experiment, we will use a photoresistor to detect
-the intensity of light as as to achieve the light following effect.
+We have learned the working principle of photoresistor, motor and speed regulation. In this experiment, we will use a photoresistor to detect the intensity of light as as to achieve the light following effect.
 
 2.  **Working Principle：**
 
@@ -2133,14 +1817,11 @@ the intensity of light as as to achieve the light following effect.
 
 5.  **Test Result：**
 
-Ensure the Raspberry Pi Pico is connected to the computer, and
-click“Stop/Restart backend”.
+Ensure the Raspberry Pi Pico is connected to the computer, and click“Stop/Restart backend”.
 
 ![](raw.githubusercontent.com/keyestudio/KS3027-KS3027F-Keyestudio-Beetlebot-3-in-1-Robot-for-Raspberry-Pi-Pico-Python/master/media/359277411f6677cd03a8f21d072ed8f5.png)
 
-Place batteries in the battery holder, turn the power switch to ON end
-and click "Run Current Script". We will see that the car will follow the
-light to move.
+Place batteries in the battery holder, turn the power switch to ON end and click "Run Current Script". We will see that the car will follow the light to move.
 
 Press“Ctrl+C”or click“Stop/Restart Backend”to exit the program.
 
@@ -2148,32 +1829,25 @@ Press“Ctrl+C”or click“Stop/Restart Backend”to exit the program.
 
 ### Project 10: IR Remote Control
 
-Infrared remote controls are everywhere in daily life. It is used to
-control various home appliances, such as TV, speakers, video recorders
-and satellite signal receivers.
+Infrared remote controls are everywhere in daily life. It is used to control various home appliances, such as TV, speakers, video recorders and satellite signal receivers.
 
-The remote control is composed of an IR emitter, an IR receiver and a
-decoding MCU. In this project, we will make a IR remote control car.
+The remote control is composed of an IR emitter, an IR receiver and a decoding MCU. In this project, we will make a IR remote control car.
 
 ### Project 10.1: IR Remote and Reception
 
 **1.Description：**
 
-In this experiment, we will combine the IR receiver and the IR remote
-control to read key values and show them on the serial monitor.
+In this experiment, we will combine the IR receiver and the IR remote control to read key values and show them on the serial monitor.
 
 2.  **Knowledge：**
 
 **IR Remote Control：**
 
-It is a device with buttons. When the key is pressed, IR signals will be
-sent.
+It is a device with buttons. When the key is pressed, IR signals will be sent.
 
-Infrared remote control technology is widely used, such as TVs, air
-conditioners and so on. And it can control air conditioners and TVs
+Infrared remote control technology is widely used, such as TVs, air conditioners and so on. And it can control air conditioners and TVs
 
-The infrared remote control adopts NEC coding, and the signal period is
-110ms.
+The infrared remote control adopts NEC coding, and the signal period is 110ms.
 
 The remote control is shown below:
 
@@ -2181,11 +1855,9 @@ The remote control is shown below:
 
 Infrared (IR) receiver:
 
-It can receive infrared light and be used to detect the infrared signal
-emitted by the infrared remote control.
+It can receive infrared light and be used to detect the infrared signal emitted by the infrared remote control.
 
-It can demodulate the received infrared light signal and convert it back
-to binary, and then transmit the information to the microcontroller.
+It can demodulate the received infrared light signal and convert it back to binary, and then transmit the information to the microcontroller.
 
 ![](raw.githubusercontent.com/keyestudio/KS3027-KS3027F-Keyestudio-Beetlebot-3-in-1-Robot-for-Raspberry-Pi-Pico-Python/master/media/3da1969e509f53706643c77d0534eb73.png)
 
@@ -2193,16 +1865,11 @@ to binary, and then transmit the information to the microcontroller.
 
 **NEC Protocol**
 
-To my knowledge the protocol I describe here was developed by NEC (Now
-Renesas). I've seen very similar protocol descriptions on the internet,
-and there the protocol is called Japanese Format.
+To my knowledge the protocol I describe here was developed by NEC (Now Renesas). I've seen very similar protocol descriptions on the internet, and there the protocol is called Japanese Format.
 
-I do admit that I don't know exactly who developed it. What I do know is
-that it was used in my late VCR produced by Sanyo and was marketed under
-the name of Fisher. NEC manufactured the remote control IC.
+I do admit that I don't know exactly who developed it. What I do know is that it was used in my late VCR produced by Sanyo and was marketed under the name of Fisher. NEC manufactured the remote control IC.
 
-This description was taken from my VCR's service manual. Those were the
-days, when service manuals were filled with useful information\!
+This description was taken from my VCR's service manual. Those were the days, when service manuals were filled with useful information\!
 
 **Features**
 
@@ -2222,81 +1889,48 @@ Bit time of 1.125ms or 2.25ms.
 
 ![](raw.githubusercontent.com/keyestudio/KS3027-KS3027F-Keyestudio-Beetlebot-3-in-1-Robot-for-Raspberry-Pi-Pico-Python/master/media/da33571c6f0afb94b1ec1d91caba3edb.png)
 
-The NEC protocol uses pulse distance encoding of the bits. Each pulse is
-a 560µs long 38kHz carrier burst (about 21 cycles). A logical "1" takes
-2.25ms to transmit, while a logical "0" is only half of that, being
-1.125ms. The recommended carrier duty-cycle is 1/4 or 1/3
+The NEC protocol uses pulse distance encoding of the bits. Each pulse is a 560µs long 38kHz carrier burst (about 21 cycles). A logical "1" takes 2.25ms to transmit, while a logical "0" is only half of that, being 1.125ms. The recommended carrier duty-cycle is 1/4 or 1/3.
 
 **Protocol**
 
 ![](raw.githubusercontent.com/keyestudio/KS3027-KS3027F-Keyestudio-Beetlebot-3-in-1-Robot-for-Raspberry-Pi-Pico-Python/master/media/f970404e7bbfb5711fea5c776f689f3a.png)
 
-The picture above shows a typical pulse train of the NEC protocol. With
-this protocol the LSB is transmitted first. In this case Address $59 and
-Command $16 is transmitted. A message is started by a 9ms AGC burst,
-which was used to set the gain of the earlier IR receivers. This AGC
-burst is then followed by a 4.5ms space, which is then followed by the
-Address and Command. Address and Command are transmitted twice. The
-second time all bits are inverted and can be used for verification of
-the received message. The total transmission time is constant because
-every bit is repeated with its inverted length. If you're not interested
-in this reliability you can ignore the inverted values, or you can
-expand the Address and Command to 16 bits each\!
+The picture above shows a typical pulse train of the NEC protocol. With this protocol the LSB is transmitted first. In this case Address $59 and Command $16 is transmitted. A message is started by a 9ms AGC burst, which was used to set the gain of the earlier IR receivers. This AGC burst is then followed by a 4.5ms space, which is then followed by the Address and Command. 
 
-Keep in mind that one extra 560µs burst has to follow at the end of the
-message in order to be able to determine the value of the last bit.
+Address and Command are transmitted twice. The second time all bits are inverted and can be used for verification of
+the received message. The total transmission time is constant because every bit is repeated with its inverted length. If you're not interested in this reliability you can ignore the inverted values, or you can expand the Address and Command to 16 bits each\!
+
+Keep in mind that one extra 560µs burst has to follow at the end of the message in order to be able to determine the value of the last bit.
 
 ![](raw.githubusercontent.com/keyestudio/KS3027-KS3027F-Keyestudio-Beetlebot-3-in-1-Robot-for-Raspberry-Pi-Pico-Python/master/media/63364daf21e5522c64eb8dfa82f2cef2.png)
 
-A command is transmitted only once, even when the key on the remote
-control remains pressed. Every 110ms a repeat code is transmitted for as
-long as the key remains down. This repeat code is simply a 9ms AGC pulse
-followed by a 2.25ms space and a 560µs burst.
+A command is transmitted only once, even when the key on the remote control remains pressed. Every 110ms a repeat code is transmitted for as long as the key remains down. This repeat code is simply a 9ms AGC pulse followed by a 2.25ms space and a 560µs burst.
 
 ![](raw.githubusercontent.com/keyestudio/KS3027-KS3027F-Keyestudio-Beetlebot-3-in-1-Robot-for-Raspberry-Pi-Pico-Python/master/media/afea92a3b5cc1aa2457d2b118b157c84.png)
 
 **Extended NEC protocol**
 
-The NEC protocol is so widely used that soon all possible addresses were
-used up. By sacrificing the address redundancy the address range was
-extended from 256 possible values to approximately 65000 different
-values. This way the address range was extended from 8 bits to 16 bits
-without changing any other property of the protocol.
+The NEC protocol is so widely used that soon all possible addresses were used up. By sacrificing the address redundancy the address range was extended from 256 possible values to approximately 65000 different values. This way the address range was extended from 8 bits to 16 bits without changing any other property of the protocol.
 
-By extending the address range this way the total message time is no
-longer constant. It now depends on the total number of 1's and 0's in
-the message. If you want to keep the total message time constant you'll
-have to make sure the number 1's in the address field is 8 (it
-automatically means that the number of 0's is also 8). This will reduce
-the maximum number of different addresses to just about 13000.
+By extending the address range this way the total message time is no longer constant. It now depends on the total number of 1's and 0's in the message. If you want to keep the total message time constant you'll have to make sure the number 1's in the address field is 8 (it automatically means that the number of 0's is also 8). This will reduce the maximum number of different addresses to just about 13000.
 
-The command redundancy is still preserved. Therefore each address can
-still handle 256 different commands.
+The command redundancy is still preserved. Therefore each address can still handle 256 different commands.
 
 ![](raw.githubusercontent.com/keyestudio/KS3027-KS3027F-Keyestudio-Beetlebot-3-in-1-Robot-for-Raspberry-Pi-Pico-Python/master/media/2f78d1ce7f001926f6b90ad966796e91.png)
 
-Keep in mind that 256 address values of the extended protocol are
-invalid because they are in fact normal NEC protocol addresses. Whenever
-the low byte is the exact inverse of the high byte it is not a valid
-extended address.
+Keep in mind that 256 address values of the extended protocol are invalid because they are in fact normal NEC protocol addresses. Whenever the low byte is the exact inverse of the high byte it is not a valid extended address.
 
 3.  **Test Code**
 
-The IR receiver on the PCB board is controlled by GPIO6 of the pico
-board.
+The IR receiver on the PCB board is controlled by GPIO6 of the pico board.
 
-Go to the folder KS3027 Keyestudio Beetlebot 3 in 1 Robot for Pico STEM
-Education\\2. Python Tutorials\\2.Python\_Codes, You can save the code
-anywhere. For example, we save the code in the Disk(D)
+Go to the folder KS3027 Keyestudio Beetlebot 3 in 1 Robot for Pico STEM Education\\2. Python Tutorials\\2.Python\_Codes, You can save the code anywhere. For example, we save the code in the Disk(D)
 
 ![](raw.githubusercontent.com/keyestudio/KS3027-KS3027F-Keyestudio-Beetlebot-3-in-1-Robot-for-Raspberry-Pi-Pico-Python/master/media/53ad6dae1158e06978b3f04b448272e9.png)
 
-Open“Thonny”, click“This
-computer”→“D:”→“2.Python\_Codes”→“Project\_10.1\_Infrared\_Remote\_And\_Receiver”
+Open“Thonny”, click“This computer”→“D:”→“2.Python\_Codes”→“Project\_10.1\_Infrared\_Remote\_And\_Receiver”
 
-Select“irrecvdata.py”and right-click“Upload to /， after
-the“irrecvdata.py”is uploaded to the Raspberry Pi Pico，then
-double-click“Project\_10.1\_Infrared\_Remote\_And\_Receiver.py”.
+Select“irrecvdata.py”and right-click“Upload to /， after the“irrecvdata.py”is uploaded to the Raspberry Pi Pico，then double-click“Project\_10.1\_Infrared\_Remote\_And\_Receiver.py”.
 
 ![](raw.githubusercontent.com/keyestudio/KS3027-KS3027F-Keyestudio-Beetlebot-3-in-1-Robot-for-Raspberry-Pi-Pico-Python/master/media/ebebdd19187697dd6a25351df9a97ef7.png)
 
@@ -2318,19 +1952,13 @@ double-click“Project\_10.1\_Infrared\_Remote\_And\_Receiver.py”.
 </tr>
 </tbody>
 </table>
+**4.Test Result：**
 
-**3.Test Result：**
-
-Ensure the Raspberry Pi Pico is connected to the computer，and
-click![](raw.githubusercontent.com/keyestudio/KS3027-KS3027F-Keyestudio-Beetlebot-3-in-1-Robot-for-Raspberry-Pi-Pico-Python/master/media/27451c8a9c13e29d02bc0f5831cfaf1f.png)“Stop/Restart
-backend”.
+Ensure the Raspberry Pi Pico is connected to the computer，and click![](raw.githubusercontent.com/keyestudio/KS3027-KS3027F-Keyestudio-Beetlebot-3-in-1-Robot-for-Raspberry-Pi-Pico-Python/master/media/27451c8a9c13e29d02bc0f5831cfaf1f.png)“Stop/Restart backend”.
 
 ![](raw.githubusercontent.com/keyestudio/KS3027-KS3027F-Keyestudio-Beetlebot-3-in-1-Robot-for-Raspberry-Pi-Pico-Python/master/media/c38be543f0ee20956fd99b93d2160fa4.png)
 
-Click "Run Current Script" . Point at the infrared remote control at the
-infrared receiving head and press buttons on the controller, the "Shell"
-window under Thonny IDE will print the current received keycode value.
-Press “Ctrl+C” or click
+Click "Run Current Script" . Point at the infrared remote control at the infrared receiving head and press buttons on the controller, the "Shell" window under Thonny IDE will print the current received keycode value. Press “Ctrl+C” or click
 ![](raw.githubusercontent.com/keyestudio/KS3027-KS3027F-Keyestudio-Beetlebot-3-in-1-Robot-for-Raspberry-Pi-Pico-Python/master/media/27451c8a9c13e29d02bc0f5831cfaf1f.png)“Stop/Restart
 Backend” to exit the program.  
 
@@ -2338,8 +1966,7 @@ Backend” to exit the program.  
 
 ![](raw.githubusercontent.com/keyestudio/KS3027-KS3027F-Keyestudio-Beetlebot-3-in-1-Robot-for-Raspberry-Pi-Pico-Python/master/media/623f8fa842b90a093d286954835483c6.png)
 
-Write down the code associated with each button on the infrared remote,
-as we will need this information later.   
+Write down the code associated with each button on the infrared remote, as we will need this information later.   
 
 ![](raw.githubusercontent.com/keyestudio/KS3027-KS3027F-Keyestudio-Beetlebot-3-in-1-Robot-for-Raspberry-Pi-Pico-Python/master/media/ebcf0cb2055f7784505f76ceeaef9f47.jpeg)
 
@@ -2347,11 +1974,7 @@ as we will need this information later.   
 
 **1.Description：**
 
-In the above experiment, we have learned about the knowledge of the 8\*8
-dot matrix display, the motor driver and speed regulation, the infrared
-receiver and the infrared remote control. In this experiment, we will
-use the infrared remote control and the infrared receiver to control the
-car.
+In the above experiment, we have learned about the knowledge of the 8\*8 dot matrix display, the motor driver and speed regulation, the infrared receiver and the infrared remote control. In this experiment, we will use the infrared remote control and the infrared receiver to control the car.
 
 **2.Working Principle：**
 
@@ -2373,20 +1996,15 @@ car.
 
 ![](raw.githubusercontent.com/keyestudio/KS3027-KS3027F-Keyestudio-Beetlebot-3-in-1-Robot-for-Raspberry-Pi-Pico-Python/master/media/b8ecdfd8dbc04c43021b09bd2c6a48f0.png)
 
-**Test Code**
+**4. Test Code**
 
-Go to the folder KS3027 Keyestudio Beetlebot 3 in 1 Robot for Pico STEM
-Education\\2. Python Tutorials\\2.Python\_Codes, You can save the code
-anywhere. For example, we save the code in the Disk(D)
+Go to the folder KS3027 Keyestudio Beetlebot 3 in 1 Robot for Pico STEM Education\\2. Python Tutorials\\2.Python\_Codes, You can save the code anywhere. For example, we save the code in the Disk(D)
 
 ![](raw.githubusercontent.com/keyestudio/KS3027-KS3027F-Keyestudio-Beetlebot-3-in-1-Robot-for-Raspberry-Pi-Pico-Python/master/media/53ad6dae1158e06978b3f04b448272e9.png)
 
-Open“Thonny”, click“This
-computer”→“D:”→“2.Python\_Codes”→“Project\_10.2\_IR\_Control\_Car”
+Open“Thonny”, click “This computer”→“D:”→“2.Python\_Codes”→“Project\_10.2\_IR\_Control\_Car”
 
-Select“ht16k33\_matrix.py, irrecvdata.py and matrix\_fonts.py and
-right-click Upload to /, then double-click
-Project\_10.2\_IR\_Control\_Car.py”
+Select“ht16k33\_matrix.py, irrecvdata.py and matrix\_fonts.py and right-click Upload to /, then double-click Project\_10.2\_IR\_Control\_Car.py”
 
 ![](raw.githubusercontent.com/keyestudio/KS3027-KS3027F-Keyestudio-Beetlebot-3-in-1-Robot-for-Raspberry-Pi-Pico-Python/master/media/e3bff76c4eec83f54c9038c404885109.png)
 
@@ -2532,25 +2150,18 @@ Project\_10.2\_IR\_Control\_Car.py”
 
 **4.Test Result：**
 
-Ensure the Raspberry Pi Pico is connected to the computer，and
-click![](raw.githubusercontent.com/keyestudio/KS3027-KS3027F-Keyestudio-Beetlebot-3-in-1-Robot-for-Raspberry-Pi-Pico-Python/master/media/27451c8a9c13e29d02bc0f5831cfaf1f.png)“Stop/Restart
-backend”.
+Ensure the Raspberry Pi Pico is connected to the computer，and click![](raw.githubusercontent.com/keyestudio/KS3027-KS3027F-Keyestudio-Beetlebot-3-in-1-Robot-for-Raspberry-Pi-Pico-Python/master/media/27451c8a9c13e29d02bc0f5831cfaf1f.png)“Stop/Restart backend”.
 
 ![](raw.githubusercontent.com/keyestudio/KS3027-KS3027F-Keyestudio-Beetlebot-3-in-1-Robot-for-Raspberry-Pi-Pico-Python/master/media/e9d8c553dadffc57605b896120a3e01d.png)
 
-Place batteries in the battery holder, turn the power switch to ON end.
-Click "Run Current Script", point the remote control at the infrared
-receiver, press keys on the remote control, then the car will show
-different functions. Press“Ctrl+C”or
-click![](raw.githubusercontent.com/keyestudio/KS3027-KS3027F-Keyestudio-Beetlebot-3-in-1-Robot-for-Raspberry-Pi-Pico-Python/master/media/27451c8a9c13e29d02bc0f5831cfaf1f.png)“Stop/Restart
-Backend”to exit the program.  
+Place batteries in the battery holder, turn the power switch to ON end. Click "Run Current Script", point the remote control at the infrared receiver, press keys on the remote control, then the car will show different functions. Press“Ctrl+C”or
+click![](raw.githubusercontent.com/keyestudio/KS3027-KS3027F-Keyestudio-Beetlebot-3-in-1-Robot-for-Raspberry-Pi-Pico-Python/master/media/27451c8a9c13e29d02bc0f5831cfaf1f.png)“Stop/Restart Backend”to exit the program.  
 
 ![](raw.githubusercontent.com/keyestudio/KS3027-KS3027F-Keyestudio-Beetlebot-3-in-1-Robot-for-Raspberry-Pi-Pico-Python/master/media/ca75ccb0730d47d804ee22484e6ad079.png)
 
 ## 8. Resources:
 
-[https://fs.keyestudio.com/KS3](https://fs.keyestudio.com/KS0470)027
+https://fs.keyestudio.com/KS3027
 
  
-
 
