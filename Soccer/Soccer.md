@@ -220,7 +220,7 @@ Keep the claw close and face front before installing the gear
 
 
 
- Wiring Diagram
+## Wiring Diagram
 
  Wire up the LEGO servo
 
@@ -279,7 +279,7 @@ Required Parts
 
 Then the soccer goal is installed well.
 
-**Test Code：**
+## Test Code：
 
     #include <Servo.h>
     Servo lgservo;
