@@ -17,7 +17,7 @@
 
 # -- Project information -----------------------------------------------------
 
-project = 'KS3027(KS3027F) Keyestudio Beetlebot 3 in 1 Robot for Raspberry Pi Pico Python'
+project = 'Beetlebot 3 in 1 Robot for Pico'
 copyright = 'keyestudio , WiKi'
 author = 'keyestudio WiKi'
 

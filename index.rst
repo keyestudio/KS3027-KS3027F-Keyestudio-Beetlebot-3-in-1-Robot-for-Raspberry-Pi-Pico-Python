@@ -1,10 +1,11 @@
 
 .. toctree::
-   :maxdepth: 5
-   :caption: KS3027(KS3027F) Keyestudio Beetlebot 3 in 1 Robot for Raspberry Pi Pico Python
+   :maxdepth: 3
+   :caption: KS3027 Keyestudio Beetlebot 3 in 1 Robot for Raspberry Pi Pico 
 
-   2. Python Tutorials/KS3027 KS3027F) Keyestudio Beetlebot 3 in 1 Robot for Python STEM Education.md
-   
+   home.md
+   arduino/C.md
+   python/python.md
    
    
    
