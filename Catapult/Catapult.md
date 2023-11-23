@@ -9,7 +9,7 @@ As the servo rotates to a proper angle then push the long arm backward a project
 ## How to build up a catapult
 
 
-### Step 1
+ Step 1
  Required components
 ![3](media/ef12c46a8dc6e5f5c7f7ee6fc3c3dc55.png)
 
@@ -24,7 +24,7 @@ As the servo rotates to a proper angle then push the long arm backward a project
 ------
 
 
-### Step 2
+ Step 2
  Required components
 ![3_3](media/d827f9196a2aed7686c9d767e64b7f66.png)
 
@@ -39,7 +39,7 @@ As the servo rotates to a proper angle then push the long arm backward a project
 ------
 
 
-### Step 3
+ Step 3
  Required components
 ![3_6](media/52da40da0bbeae39083c81a57c1117e6.png)
 
@@ -54,7 +54,7 @@ As the servo rotates to a proper angle then push the long arm backward a project
 ------
 
 
-### Step 4
+ Step 4
  Required components
 ![3_9](media/1678f2dcaaed186ba12fbcbc9a6d34c2.png)
 
@@ -69,7 +69,7 @@ As the servo rotates to a proper angle then push the long arm backward a project
 ------
 
 
-### Step 5
+ Step 5
  Required components
 ![3_12](media/9975825da874d5431f9e672ca9a4479e.png)
 
@@ -84,7 +84,7 @@ As the servo rotates to a proper angle then push the long arm backward a project
 ------
 
 
-### Step 6
+ Step 6
  Required components
 ![3_15](media/9c247eddce7a872899c34e013e12db31.png)
 
@@ -99,7 +99,7 @@ As the servo rotates to a proper angle then push the long arm backward a project
 ------
 
 
-### Step 7
+ Step 7
  Required components
 ![3_18](media/76541a6311535fd572743b0ad47f1254.png)
 
@@ -115,7 +115,7 @@ As the servo rotates to a proper angle then push the long arm backward a project
 
 
 
-### Step 8
+ Step 8
  Required components
 ![3_21](media/7e7a7032c111bbfc5e4a6605abb84dd7.png)
 
@@ -130,7 +130,7 @@ As the servo rotates to a proper angle then push the long arm backward a project
 ------
 
 
-### Step 9
+ Step 9
  Required components
 ![4](media/8a0a23b5a1a7a332209e87d032815609.png)
 
@@ -145,7 +145,7 @@ As the servo rotates to a proper angle then push the long arm backward a project
 ------
 
 
-### Step 10
+ Step 10
  Required components
 ![4_3](media/a376478c51daef7b169d65b91257cff1.png)
 
@@ -160,7 +160,7 @@ As the servo rotates to a proper angle then push the long arm backward a project
 ------
 
 
-### Step 11
+ Step 11
  Required components
 ![4_6](media/ccbf96f8a832f1b7429dd84c5d4345c8.png)
 
@@ -175,7 +175,7 @@ As the servo rotates to a proper angle then push the long arm backward a project
 ------
 
 
-### Step 12
+ Step 12
  Required components
 ![4_9](media/b7dcfd9502c3fd7b10667b6c8e02d9c2.png)
 
@@ -190,7 +190,7 @@ As the servo rotates to a proper angle then push the long arm backward a project
 ------
 
 
-### Step 13
+ Step 13
  Required components
 ![4_12](media/6348991aedca79b2dd8d672bf92a11d5.png)
 
@@ -205,7 +205,7 @@ As the servo rotates to a proper angle then push the long arm backward a project
 ------
 
 
-### Step 14
+ Step 14
  Required components
 ![4_15](media/4647a2f97a30479a02a9166625ff8691.png)
 
@@ -220,7 +220,7 @@ As the servo rotates to a proper angle then push the long arm backward a project
 ------
 
 
-### Step 15
+ Step 15
  Required components
 ![4_18](media/2ff9dd7a9593ae1d87ee1ef78f5ec79c.png)
 
@@ -235,7 +235,7 @@ As the servo rotates to a proper angle then push the long arm backward a project
 ------
 
 
-### Step 16
+ Step 16
  Required components
 ![4_21](media/f62f9d4b93b1b0ac66738baa034e710d.png)
 
@@ -250,7 +250,7 @@ As the servo rotates to a proper angle then push the long arm backward a project
 ------
 
 
-### Step 17
+ Step 17
  Required components
 ![4_24](media/4d37a7993b087fe97734443ddb940941.png)
 
@@ -291,7 +291,7 @@ As the servo rotates to a proper angle then push the long arm backward a project
 
 
 
-### Step 18
+ Step 18
 
  Required components
 

@@ -6,7 +6,7 @@ Among many industrial robots, handling robots are undoubtedly effective, applied
 
 ## How to build up a handling robot
 
-### Step 1
+ Step 1
  Dismantle the ultrasonic sensor
 ![ 6](media/f05a58fdd61093240a78a884d2484bab.png)
 
@@ -27,7 +27,7 @@ Among many industrial robots, handling robots are undoubtedly effective, applied
 ------
 
 
-### Step 2
+ Step 2
  Required components
 ![6_5](media/6ce5dc24243321d0d31e385997059e21.png)
 
@@ -42,7 +42,7 @@ Among many industrial robots, handling robots are undoubtedly effective, applied
 ------
 
 
-### Step 3
+ Step 3
  Required components
 ![6_8](media/a2b2a96f444801e2da559161cc5b2b65.png)
 
@@ -57,7 +57,7 @@ Among many industrial robots, handling robots are undoubtedly effective, applied
 ------
 
 
-### Step 4
+ Step 4
  Required components
 ![6_11](media/a86c18982b0afaa1921a3b0072989a95.png)
 
@@ -72,7 +72,7 @@ Among many industrial robots, handling robots are undoubtedly effective, applied
 ------
 
 
-### Step 5
+ Step 5
  Required components
 ![6_14](media/e99bf266cf59d343b34f2cca10de5b49.png)
 
@@ -87,7 +87,7 @@ Among many industrial robots, handling robots are undoubtedly effective, applied
 ------
 
 
-### Step 6
+ Step 6
  Required components
 ![6_17](media/4dfd662862d57090e60b71b18cd3291f.png)
 
@@ -102,7 +102,7 @@ Among many industrial robots, handling robots are undoubtedly effective, applied
 ------
 
 
-### Step 7
+ Step 7
  Required components
 ![6_20](media/7d3e50e74ae36545217c4fa15a53d04e.png)
 
@@ -117,7 +117,7 @@ Among many industrial robots, handling robots are undoubtedly effective, applied
 ------
 
 
-### Step 8
+ Step 8
  Required components
 ![6_23](media/6e73265906657a00ca17c5323f65dcec.png)
 
@@ -133,7 +133,7 @@ Among many industrial robots, handling robots are undoubtedly effective, applied
 ------
 
 
-### Step 9
+ Step 9
  Required components
 ![6_26](media/df4b2ab9b8ad767b948de6f783a0cf42.png)
 
@@ -176,7 +176,7 @@ Among many industrial robots, handling robots are undoubtedly effective, applied
 
 
 
-### Step 10
+ Step 10
 
  Required components
 

@@ -4,11 +4,11 @@
 
 **Before we start building a project, we need to do some preparations first, which is so important that we can't skip it.**
 
-### **Install Thonny**
+### Install Thonny
 
 Thonny is a free and open source software platform with small size, simple interface, simple operation and rich functions. It is a Python IDE suitable for beginners. In this tutorial, we use this IDE to develop a Raspberry Pi Pico. Thonny supports multiple operating systems including Windows, Mac OS, Linux.
 
-### **Download Thonny**
+### Download Thonny
 
 Enter the website: https://thonny.org to download the latest version of Thonny.
 
@@ -24,7 +24,7 @@ Please follow the instructions on the official website or click the link below t
 
 ![](media/bd5823ede2c01d1fa4696438c62aec51.png)
 
-### **Install Thonny on Windows**
+### Install Thonny on Windows
 The downloaded Thonny icon is as follows.
 
 ![](media/d3caa98d406fa06a124d5c98195b90db.png)
@@ -67,7 +67,7 @@ If we select “Create Desktop Icon” during the installation, the following ic
 
 ![](media/80f35044d91d66f734e36059db35f273.png)
 
-### **Basic configuration of Thonny software**
+### Basic configuration of Thonny software
 Double-click the desktop icon of Thonny software, we can see the following interface, and we can also choose the language and initial settings. Once set, click "Let's Go!"
 
 ![](media/ee240978a4f844184f1ea9f5a21d0395.png)

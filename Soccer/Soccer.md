@@ -7,7 +7,7 @@ Can you imagine that a robot can play soccer? This idea has became realistic. As
 ## How to install the soccer robot
 
                                     
-### Step 1
+ Step 1
  Remove two photoresistors
 
 ![3_1](media/5e64e86f88135f370916439bbabb2d5a.png)
@@ -29,7 +29,7 @@ Can you imagine that a robot can play soccer? This idea has became realistic. As
 ------
 
 
-### Step 2
+ Step 2
  Required Parts
 ![5](media/b7ca00b9d07fc08780f5e6e39595d974.png)
 
@@ -44,7 +44,7 @@ Can you imagine that a robot can play soccer? This idea has became realistic. As
 ------
 
 
-### Step 3
+ Step 3
  Required Parts
 ![6](media/2520ee435d034c60b66058e4bacfadb6.png)
 
@@ -60,7 +60,7 @@ Can you imagine that a robot can play soccer? This idea has became realistic. As
 
 
 
-### Step 4
+ Step 4
  Required Parts
 ![7](media/82c5dd6fbe0818dbdbaf33ee0b019215.png)
 
@@ -76,7 +76,7 @@ Can you imagine that a robot can play soccer? This idea has became realistic. As
 
 
 
-### Step 5
+ Step 5
  Required Parts
 ![7_3](media/91e35080c03e1ca03b2a58b71da76e43.png)
 
@@ -91,7 +91,7 @@ Can you imagine that a robot can play soccer? This idea has became realistic. As
 ------
 
 
-### Step 6
+ Step 6
  Required Parts
 ![7_6](media/d3ae331c69d05147a98b9d8353496a9f.png)
 
@@ -107,7 +107,7 @@ Note the installation direction of the part marked by the red circle
 ------
 
 
-### Step 7
+ Step 7
  Required Parts
 ![7_9](media/f2a0fea032c9ca807196bae481054b82.png)
 
@@ -122,7 +122,7 @@ Note the installation direction of the part marked by the red circle
 ------
 
 
-### Step 8
+ Step 8
  Required Parts
 ![8](media/f45d4a0edb9caf49703f6a14061d3356.png)
 
@@ -138,7 +138,7 @@ Adjust the angle of the claw. Then make it close and face front
 ------
 
 
-### Step 9
+ Step 9
  Required Parts
 ![8_3](media/f410d612e4ea08f789b5f8c2fe625947.png)
 
@@ -180,7 +180,7 @@ Keep the claw close and face front before installing the gear
 
 
 
-### Step 10
+ Step 10
 
  Required Parts
 
@@ -198,7 +198,7 @@ Keep the claw close and face front before installing the gear
 
 
 
-### Step 11
+ Step 11
 
  Required Parts
 
@@ -220,7 +220,7 @@ Keep the claw close and face front before installing the gear
 
 
 
-### Wiring Diagram
+ Wiring Diagram
 
  Wire up the LEGO servo
 
@@ -229,7 +229,7 @@ Keep the claw close and face front before installing the gear
 
 ## Install a soccer goal
 
-### Step 1                                                                 
+ Step 1                                                                 
  Required Parts
 
 ![2](media/0fc16ff134aa3503319d4101362338d8.png)
@@ -246,7 +246,7 @@ Keep the claw close and face front before installing the gear
 
 ​                               
 
-### Step 2
+ Step 2
 
 Required Parts
 ![2_3](media/8d3f4c81812931c8cb3140c5fc33aa1a.png)
@@ -263,7 +263,7 @@ Required Parts
 
 
 
-### Step 3
+ Step 3
 Required Parts
 ![2_6](media/99d485c0ce81fe195bd9d4282403b8f1.png)
 
