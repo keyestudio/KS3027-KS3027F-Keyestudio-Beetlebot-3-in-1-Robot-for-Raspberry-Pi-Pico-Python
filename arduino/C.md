@@ -1,4 +1,4 @@
-# **Keyestudio Beetlebot 3 in 1 Robot for Arduino STEM  Education**
+# Arduino C Tutorial
 
 ## Get started with Arduino
 
@@ -417,7 +417,7 @@ void freq(int PIN, int freqs, int times) {
 
 Upload the test code to the Arduino the Raspberry Pi Pico board and power up with a USB cable. Then the power amplifier component will play music.
 
-### Project 4: 8\*8 Dot Matrix
+### Project 4: 8*8 Dot Matrix
 
 1.  **Description：**
 
@@ -728,7 +728,7 @@ There is an ultrasonic sensor on the car. It is a very affordable distance-measu
 
 The ultrasonic sensor sends a high-frequency ultrasonic signal that human hearing can’t hear. When encountering obstacles, these signals will be reflected back immediately. After receiving the returned information, the distance between the sensor and the obstacle will be calculated by judging the time difference between the transmitted signal and the received signal. It is mainly used for object avoidance and ranging in various robotics projects.
 
-### Project 7.1: Ultrasonic Ranging
+#### Project 7.1: Ultrasonic Ranging
 
 **1.Description：**
 
@@ -818,7 +818,7 @@ Upload the test code to the Raspberry Pi board, power up with a USB cable, turn 
 
 When you move an object in front of the ultrasonic sensor, it will detect the distance and the serial monitor will show the distance value.
 
-### Project 7.2: Light Following
+#### Project 7.2: Light Following
 
 **1.Description：**
 
@@ -941,7 +941,7 @@ void back()//define the state of going back
 
 Upload the code to the Raspberry Pi board, install batteries and turn the switch to the ON end and power up. Then the car will follow the obstacle to move.
 
-### Project 7.3: Dodge obstacles
+#### Project 7.3: Dodge obstacles
 
 **1.Description：**
 
@@ -1140,7 +1140,7 @@ Upload the test code to the Raspberry Pi board, put batteries in the battery hol
 
 There are two IR line tracking sensors on the car. They are actually two pairs of ST188L3 infrared tubes and used to detect black and white lines. In this project, we will make a line tracking car
 
-### Project 8.1: Reading Values
+#### Project 8.1: Reading Values
 
 **1.Description：**
 
@@ -1207,7 +1207,7 @@ The sensitivity can be adjusted by rotating the potentiometer. When the indicato
 
 ![](media/d7d53d28e1e4d6d9f7e931c5a50d1b9d.png)
 
-### Project 8.2: Line Tracking
+#### Project 8.2: Line Tracking
 
 **1.Description：**
 
@@ -1327,7 +1327,7 @@ There are two photoresistors on the car. They can vary with the light intensity 
 
 Photoresistors can determine and conduct the car to move by detecting light
 
-### Project 9.1 Read Values
+#### Project 9.1 Read Values
 
 1.  **Description：**
 
@@ -1381,7 +1381,7 @@ Upload the test code to the Raspberry Pi board, power up with a USB cable, open 
 
 When the light intensifies, the analog value will get increased; on the contrary, the analog value will get reduced.
 
-### Project 09.2: Light Following Car
+#### Project 09.2: Light Following Car
 
 1.  **Description：**
 
@@ -1513,7 +1513,7 @@ Infrared remote controls are everywhere in daily life. It is used to control var
 
 The remote control is composed of an IR emitter, an IR receiver and a decoding MCU. In this project, we will make a IR remote control car.
 
-### Project 10.1: IR Remote and Reception
+#### Project 10.1: IR Remote and Reception
 
 **1.Description：**
 
@@ -1628,7 +1628,7 @@ void loop() {
 
 Upload the test code to the Raspberry Pi board, power up with a USB cable, open the serial monitor and set to 115200. Power up and press a key of the IR remote control ,we will see that the serial port monitor window will print the current received key code value.
 
-### Project 10.2: IR Remote Control Car
+#### Project 10.2: IR Remote Control Car
 
 **1.Description：**
 
@@ -1800,7 +1800,7 @@ Upload the test code to the Raspberry Pi board, install batteries, turn the powe
 
 In this lesson, we control the car through app. The Beetlebot APP sends commanders to the WIFI ESP-01 module then transfers to it to the microcontroller. By doing this, the car can perform different functions.
 
-### Project 11.1: WIFI Test
+#### Project 11.1: WIFI Test
 
 **1.Description：**
 
@@ -2208,7 +2208,7 @@ After the ESP8266 code is successfully uploaded, first unplug the USB to ESP-01S
 
 ![](media/9fbada662d3fb1b69c6718b62cfa844a.png)
 
-### Project 11.2 : Control 8\*8 Dot Matrix Display Via WIFI
+#### Project 11.2 : Control 8*8 Dot Matrix Display Via WIFI
 
 **1.Description：**
 
@@ -2635,7 +2635,7 @@ The installation instructions are similar with Android system.
 
 Click![](media/db52b661d5b22528618e9c14aefa367e.png)，a “smile”pattern will be displayed；click ![](media/6abdf809090a56fb251e9ee4d44c70f4.png)，“十”will be shown；click![](media/aca24e8c4a86a9a2702160be4a4d9970.png)，“❤”will be shown.
 
-### Project 11.3: Multi-purpose Car
+#### Project 11.3: Multi-purpose Car
 
 **1.Description：**
 

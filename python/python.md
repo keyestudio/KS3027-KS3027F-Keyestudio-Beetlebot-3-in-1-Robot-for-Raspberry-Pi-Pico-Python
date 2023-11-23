@@ -1,6 +1,6 @@
-# KS3027 (KS3027F) Keyestudio Beetlebot 3 in 1 Robot for Python STEM Education
+# Python Tutorial
 
-## **Preparation for Python（Important）**
+## Preparation for Python
 
 **Before we start building a project, we need to do some preparations first, which is so important that we can't skip it.**
 
@@ -166,182 +166,8 @@ When the following message is displayed on Thonny, then the Thonny successfully 
 
 So far, all the preparations have been made.
 
-**Text Code**
-Test Shell commands
 
-In“**Shell**”window , type“**print (Hello World!)**”，press“**Enter**”.
-
-![](media/2b4feabe1126134057046b6a0dd5bbdb.png)
-
-Run Code Online:
-
-To run Raspberry Pi Pico online, we need to connect the Raspberry Pi Pico to our computer, which allows us to compile or debug programs using Thonny software.
-
-Advantages: you can compile or debug programs using Thonny software.
-
-Through the "Shell" window, we can view the error information and output results generated during the operation of the program, and query related function information online to help improve the program.
-
-Disadvantages: To run Raspberry Pi Pico online, you must connect Raspberry Pi Pico to a computer and run it with Thonny software.
-
-If the Raspberry Pi Pico is disconnected from the computer, when they reconnect, the program won't run again.
-
-[basic](javascript:;) [operation](javascript:;):
-
-Open Thonny and click![](media/6388aa0daa514f9325fb07fd5ab6749b.png)“**Open...**”.
-
-![](media/b65264767d6ff04d5f3530b8eebe218c.png)
-
-Click“**This computer**”in the new pop-up window
-
-![](media/5bdbc66ef89b41a53e46696c07b2c282.png)
-
-In the new dialog box, go to the folder 2. Python Projects\\Project 01：Hello World . Select“Project_01_HelloWorld.py”,click“Open”. The code used in this tutorial is saved in the file KS3020 Keyestudio Raspberry Pi Pico Learning Kit Ultimate Edition\\2. Windows System\\1. Python_Tutorial\\2. Python Projects. We can move the code anywhere. For example, we save the 2. Python Projects in the Disk(D), the route is D:\\2. Python Projects.
-
-![](media/9b61f563870ec1235e6cc48ca748cec5.png)
-
-Click![](media/f79b2c42507d12b91ca23ea0bb87c5c2.png)“Run current script”to execute program“Hello World!”, "Welcome Keyestudio" will print in the “Shell”window.
-
-![](media/39eb24657c5733544944dd643640a61d.png)
-
-**Exit online**
-
-When running online, click **“**Stop /Restart Backend**”** on Thonny or press **“Ctrl+C”** to exit the program.
-
-![](media/dc2a210535724a7d601b5ad8b02ca8ed.png)
-
-Offline running code:
-
-When running offline, the Raspberry Pi Pico doesn't need to connect to a computer and Thonny. Once powered up, it can run the main.pyprogram stored in the Raspberry Pi Pico.
-
-**Pros**: We don't need to connect a computer to Thonny's software to run the program.
-
-**Cons**: The program stops automatically when an error occurs or the Raspberry Pi Pico runs out of power, and the code is hard to change.
-
-[Basic](javascript:;) [Operation](javascript:;):
-
-Once powered up, the Raspberry Pi Pico will check for the presence of main.py on the device automatically. If so, run the program in main.py and go to the shell command system. (If we want the code to run offline, we can save it as main.py); If the main.py does not exist, go directly to the shell command system.
-
-Click “File”→“New”, create and write code.
-
-![](media/7a6988dfff80ecb0479e3e878ccde171.png)
-
-(2)Enter the code in the newly opened file. Here we use the Project_02_Onboard_LED_Flashing. Py code as an example.
-
-![](media/59f397a5c32e3bbe1bb8ff5e2d0316ae.png)
-
-Click“**Save**”on the menu bar, we can save the code in This computer or MicroPython device.
-
-![](media/abec708857f37ac0871ffa7ad5b4c913.png)
-
-Select“MicroPython device”，enter“main.py”in the new pop-up window and click“OK”.
-
-![](media/eb375d7b67d432efb0253a825d5ee5a4.png)
-
-![](media/d7f40a82158a71b22909f519a9078e94.png)
-
-We can see the code has been uploaded to the Raspberry Pi Pico.
-
-![](media/aace831a6a8e1199b2a9e0fc6ef40d56.png)
-
-Disconnect the microUSB cable to the Raspberry Pi Pico and reconnect, and the LEDs on the Raspberry Pi Pico will flash repeatedly.
-
-![](media/b282e1fbd4b4d492d19efe7062b7eddb.png) ![](media/529c3be102eb7414ac1e5e66fb203b6e.png)
-
-**Exit from Offline operation**
-
-Connect Raspberry Pi Pico to the computer，click“Stop/Restart backend”on Thonny to end the offline operation.
-
-![](media/5efb6f20a190d482be423126eced88d5.png)
-
-If it does’t work, click“Stop/Restart backend”on Thonny several times or reconnect to the Raspberry Pi Pico.
-
-![图片1(22)](media/2d507294736e68b68cad4e8060ae1db6.jpeg)
-
-We provide a main.py file to run offline. The code added to main.py is the bootstrap that executes the user code file. We just need to upload the offline project's code file (.py) to the "MicroPython Device".
-
-① Make the program folder **KS3020 Keyestudio Raspberry Pi Pico Learning Kit Ultimate Edition\\2. Windows System\\1. Python_Tutorial\\2. Python Projects** move ahead to the **Disk(D)**，the path is **D:\\2. Python Projects.** Open the Thonny software.
-
-![](media/2da93159095ee2355449a27a22f988b4.png)
-
-② Expand Project 00 : main in Disk(D) directory D:\\2. Python Projects. Double-click **main.py** to make the code in **"**MicroPython Device**" ru**n offline.
-
-![](media/30ed08309a2c6d6b53ea9b1cd4beb299.png)
-
-Here, we use project 00 and Project 02 cases as examples. The results are displayed using an LED(GP25 pin) on a Raspberry Pi Pico. If we have modified the Project_02_Onboard_LED_Flashing. Py file, then we need to modify it accordingly. Right-click the Project_02_Onboard_LED_Flashing. Py file and select **'**Upload to/' to upload the code to Raspberry Pi Pico, as shown below.
-
-![Untitled](media/2b0dfdd7becf42730b1baa0ca45e6ea3.png)
-
-Upload the main.py in the same way
-
-![图片2(5)](media/4e8bc42dbffa1e0432a94e99977d426f.jpeg)
-
-Disconnect and reconnect the microUSB cable to the Raspberry Pi Pico, and the LEDs will flash repeatedly .
-
-![](media/b282e1fbd4b4d492d19efe7062b7eddb.png) ![](media/529c3be102eb7414ac1e5e66fb203b6e.png)
-
-Note:
-
-The code here runs offline. If we want to stop running offline and go to "Shell", simply click "Stop/Restart Backend" on Thonny software.
-
-![](media/dc2a210535724a7d601b5ad8b02ca8ed.png)
-
-**Thonny common operations**
-
-**Upload the code to Raspberry Pi Pico**
-
-In the Project 01：Hello World file, right-click and select Project_01_HelloWorld.py，select“**Upload to /**”and upload the code to the root directory of the Raspberry Pi Pico.
-
-![Untitled](media/18f24b958cc2efe1e332c429383b8df1.png)
-
-**Download the code to the computer**
-
-In the“**MicroPython device**”, right-click and select Project_01_HelloWorld.py，select“**Download to ...**”to download the code to our computer.
-
-![Untitled](media/867e40f907c512aa4a17c0f4fb6d75e6.png)
-
-**Delete the files in the Raspberry Pi Pico root directory**
-
-In the“**MicroPython device**”，right-click and select Project_01_HelloWorld.py，select“**Delete**”，delete the Project_01_HelloWorld.py from the Raspberry Pi Pico root directory.
-
-![Untitled](media/d97823ab15b1afd831a438e2863ab270.png)
-
-**Delete files from the computer's directory**
-
-In the Project_01 : Hello World file, right-click and select Project_01_HelloWorld.py，select“**Move to Recycle Bin**”，then it can be deleted from the Project_01_HelloWorld file.
-
-![Untitled](media/9d73a385a0855eb68c453088bd0748f4.png)
-
-**Create and Save Code**
-
-①Click“**File**”→“**New**”to create and compile code.
-
-![Untitled](media/373922a344188cda87b797b0ad639522.png)
-
-②Enter code in the newly opened file, here we use Project_02_Onboard_LED_Flashing.py code as an example.
-
-![](media/4aab2202442af7b04e880414af8f44fe.png)
-
-③Click“**Save**”，and we can save the code to our computer or the Raspberry Pi Pico.
-
-![](media/19773e65bc454d549ae95422b645692a.png)
-
-④ Select“**MicroPython device**”，enter“**main.py**”in the new pop-up window and click“**OK**”.
-
-![](media/92c1b5f2bb76f21462da37cdb9a3f18f.png)
-
-![](media/d7f40a82158a71b22909f519a9078e94.png)
-
-⑤ We can see the code has been uploaded to the Raspberry Pi Pico.
-
-![](media/4be452d7471f5110efdc50737007d714.png)
-
-⑥Click“**Run current script**”, the LED on the Raspberry Pi Pico will flash periodically.
-
-![](media/3c0b64be3cc1a0750f187e063dcabd29.png)
-
-
-
-## 7. Projects：
+## Projects：
 
 ### Project 1: Onboard LED Flashing
 
@@ -579,7 +405,7 @@ Click "Run Current Script", the code starts to execute, we will see the car PCB 
 
 ![](raw.githubusercontent.com/keyestudio/KS3027-KS3027F-Keyestudio-Beetlebot-3-in-1-Robot-for-Raspberry-Pi-Pico-Python/master/media/0c97256e014e470050fe35707a074a51.png)
 
-### Project 4: 8\*8 Dot Matrix
+### Project 4: 8*8 Dot Matrix
 
 **1.Description:**
 
@@ -1038,7 +864,7 @@ There is an ultrasonic sensor on the car. It is a very affordable distance-measu
 
 The ultrasonic sensor sends a high-frequency ultrasonic signal that human hearing can’t hear. When encountering obstacles, these signals will be reflected back immediately. After receiving the returned information, the distance between the sensor and the obstacle will be calculated by judging the time difference between the transmitted signal and the received signal. It is mainly used for object avoidance and ranging in various robotics projects.
 
-### Project 7.1: Ultrasonic Ranging
+#### Project 7.1: Ultrasonic Ranging
 
 **1.Description：**
 
@@ -1152,7 +978,7 @@ We will see that the distance value between the ultrasonic sensor and the object
 
 ![](raw.githubusercontent.com/keyestudio/KS3027-KS3027F-Keyestudio-Beetlebot-3-in-1-Robot-for-Raspberry-Pi-Pico-Python/master/media/ce873cf513307a15f9aa58078c8dd7d6.png)
 
-### Project 7.2: Light Following
+#### Project 7.2: Light Following
 
 **1.Description：**
 
@@ -1293,7 +1119,7 @@ We will see that the car can move with the movement of obstacles in front of it.
 
 ![](raw.githubusercontent.com/keyestudio/KS3027-KS3027F-Keyestudio-Beetlebot-3-in-1-Robot-for-Raspberry-Pi-Pico-Python/master/media/e4b4586d9fa83d48d4dd534b5e017699.png)
 
-### Project 7.3: Dodge Obstacles
+#### Project 7.3: Dodge Obstacles
 
 **1.Description：**
 
@@ -1503,7 +1329,7 @@ We will see that the car can avoid obstacles automatically when we put some obst
 
 There are two IR line tracking sensors on the car. They are actually two pairs of ST188L3 infrared tubes and used to detect black and white lines. In this project, we will make a line tracking car.
 
-### Project 8.1: Reading Values
+#### Project 8.1: Reading Values
 
 **1.Description：**
 
@@ -1575,7 +1401,7 @@ The sensitivity can be adjusted by rotating the potentiometer. When the indicato
 
 ![](raw.githubusercontent.com/keyestudio/KS3027-KS3027F-Keyestudio-Beetlebot-3-in-1-Robot-for-Raspberry-Pi-Pico-Python/master/media/7b57898ccc7423695e6078a3e015fb90.png)
 
-### Project 8.2: Line Tracking
+#### Project 8.2: Line Tracking
 
 **1.Description：**
 
@@ -1614,7 +1440,7 @@ We all know that humans can look for light in the dark with their eyes, but how 
 
 When the light intensity and weakness of the external environment change, the resistance of the photosensitive sensor also changes accordingly, and this change is transmitted to the Nano board on the car, which judges and thinks like the human brain, directs the car to find light. Two photosensitive sensors constantly detect whether there is light, detect the light on the left and right sides of the judgment of which direction the light is stronger, and finally direct the car to the direction of strong light.  
 
-### Project 9.1 Read Values
+#### Project 9.1 Read Values
 
 **Description：**
 
@@ -1681,7 +1507,7 @@ Click“Run current script”, we will see that when the light intensifies, the 
 
 ![](raw.githubusercontent.com/keyestudio/KS3027-KS3027F-Keyestudio-Beetlebot-3-in-1-Robot-for-Raspberry-Pi-Pico-Python/master/media/2779d2006487d514963e0c9b095864be.png)
 
-### Project 9.2: Light Following Car
+#### Project 9.2: Light Following Car
 
 **Description：**
 
@@ -1756,7 +1582,7 @@ Infrared remote controls are everywhere in daily life. It is used to control var
 
 The remote control is composed of an IR emitter, an IR receiver and a decoding MCU. In this project, we will make a IR remote control car.
 
-### Project 10.1: IR Remote and Reception
+#### Project 10.1: IR Remote and Reception
 
 **1.Description：**
 
@@ -1893,7 +1719,7 @@ Write down the code associated with each button on the infrared remote, as we wi
 
 ![](raw.githubusercontent.com/keyestudio/KS3027-KS3027F-Keyestudio-Beetlebot-3-in-1-Robot-for-Raspberry-Pi-Pico-Python/master/media/ebcf0cb2055f7784505f76ceeaef9f47.jpeg)
 
-### Project 10.2: IR Remote Control Car
+#### Project 10.2: IR Remote Control Car
 
 **1.Description：**
 
@@ -2082,9 +1908,7 @@ click![](raw.githubusercontent.com/keyestudio/KS3027-KS3027F-Keyestudio-Beetlebo
 
 ![](raw.githubusercontent.com/keyestudio/KS3027-KS3027F-Keyestudio-Beetlebot-3-in-1-Robot-for-Raspberry-Pi-Pico-Python/master/media/ca75ccb0730d47d804ee22484e6ad079.png)
 
-## 8. Resources:
 
-https://fs.keyestudio.com/KS3027
 
  
 

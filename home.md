@@ -1,5 +1,11 @@
 # **Keyestudio Beetlebot 3 in 1 Robot for Arduino STEM  Education**
 
+
+## Download Resources:
+
+[https://fs.keyestudio.com/KS3027](https://fs.keyestudio.com/KS3027)
+
+
 ## Decription：
 
 The Beetlebot smart robot, compatible with LEGO building blocks, is a STEM educational product which can automatically dodge obstacles, follow black lines and light to move. Besides, it has three cool forms such as the soccer robot, the siege robot, the handling robot. As for beginners, they cancreate whatever they want by LEGO building blocks.
@@ -184,8 +190,4 @@ Raspberry Pi Pico is a low-cost, high-performance microcontroller board with fle
 **![标注-01](arduino/media/7a101d142fecfe0d47e12a3897dd632d.png)**
 
 **![标注-02](arduino/media/f30dfbb6347df2336aae511ecac5be31.png)Note: Switch the DIP switch to OFF before removing or installing the battery.**
-
-
-
-[https://fs.keyestudio.com/KS3027](https://fs.keyestudio.com/KS3027)
 
