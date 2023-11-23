@@ -1,21 +1,19 @@
-**Handling Robot**
+# Handling Robot
 
-**Description：**
+## Description
 
 Among many industrial robots, handling robots are undoubtedly effective, applied in industrial manufacturing, warehousing and logistics, tobacco, medicine, food, chemical and other industries, or in post offices, libraries, ports and parking lots. In this experiment, we will use LEGO blocks to build a handling robot to carry things.
 
-**How to build up a handling robot**
+## How to build up a handling robot
 
-# How to install the handling robot
-
-## Step 1
-### Dismantle the ultrasonic sensor
+### Step 1
+ Dismantle the ultrasonic sensor
 ![ 6](media/f05a58fdd61093240a78a884d2484bab.png)
 
 ------
 
 
-### Required components
+ Required components
 ![6_2](media/1f8438657adee5ee0931a2e0db8c8d79.png)
 
 ------
@@ -29,8 +27,8 @@ Among many industrial robots, handling robots are undoubtedly effective, applied
 ------
 
 
-## Step 2
-### Required components
+### Step 2
+ Required components
 ![6_5](media/6ce5dc24243321d0d31e385997059e21.png)
 
 ------
@@ -44,8 +42,8 @@ Among many industrial robots, handling robots are undoubtedly effective, applied
 ------
 
 
-## Step 3
-### Required components
+### Step 3
+ Required components
 ![6_8](media/a2b2a96f444801e2da559161cc5b2b65.png)
 
 ------
@@ -59,8 +57,8 @@ Among many industrial robots, handling robots are undoubtedly effective, applied
 ------
 
 
-## Step 4
-### Required components
+### Step 4
+ Required components
 ![6_11](media/a86c18982b0afaa1921a3b0072989a95.png)
 
 ------
@@ -74,8 +72,8 @@ Among many industrial robots, handling robots are undoubtedly effective, applied
 ------
 
 
-## Step 5
-### Required components
+### Step 5
+ Required components
 ![6_14](media/e99bf266cf59d343b34f2cca10de5b49.png)
 
 ------
@@ -89,8 +87,8 @@ Among many industrial robots, handling robots are undoubtedly effective, applied
 ------
 
 
-## Step 6
-### Required components
+### Step 6
+ Required components
 ![6_17](media/4dfd662862d57090e60b71b18cd3291f.png)
 
 ------
@@ -104,8 +102,8 @@ Among many industrial robots, handling robots are undoubtedly effective, applied
 ------
 
 
-## Step 7
-### Required components
+### Step 7
+ Required components
 ![6_20](media/7d3e50e74ae36545217c4fa15a53d04e.png)
 
 ------
@@ -119,8 +117,8 @@ Among many industrial robots, handling robots are undoubtedly effective, applied
 ------
 
 
-## Step 8
-### Required components
+### Step 8
+ Required components
 ![6_23](media/6e73265906657a00ca17c5323f65dcec.png)
 
 ------
@@ -135,15 +133,15 @@ Among many industrial robots, handling robots are undoubtedly effective, applied
 ------
 
 
-## Step 9
-### Required components
+### Step 9
+ Required components
 ![6_26](media/df4b2ab9b8ad767b948de6f783a0cf42.png)
 
 ------
 
 
 
-### Set the angle of the servo to 180 degree
+ Set the angle of the servo to 180 degree
 
 |    Wire servo up Servo  |  PCB Board    |
 | ---- | ---- |
@@ -151,7 +149,7 @@ Among many industrial robots, handling robots are undoubtedly effective, applied
 |   Red   |   5V   |
 |   Orange   |   S2（A0）   |
 
-### Upload the code of the servo to the main board of the Beetlebot car, as shown below
+ Upload the code of the servo to the main board of the Beetlebot car, as shown below
 
     #include <Servo.h>
     Servo lgservo;  // create servo object to control a servo
@@ -178,9 +176,9 @@ Among many industrial robots, handling robots are undoubtedly effective, applied
 
 
 
-## Step 10
+### Step 10
 
-### Required components
+ Required components
 
 ![6_29](media/13c2436b53b5dab5f508e902bcb6b0cf.png)
 
@@ -215,7 +213,7 @@ Among many industrial robots, handling robots are undoubtedly effective, applied
 ------
 
 
-**Test Code：**
+## Test Code：
 
     #include <Servo.h>
     Servo lgservo;
