@@ -1,3 +1,12 @@
+Soccer Robot
+
+**Description：**
+
+Can you imagine that a robot can play soccer? This idea has became realistic. As we know, the RoboCup championship is generally held each year. In this part, we will create a soccer robot to play soccer.
+
+**How to install the soccer robot**
+
+
 # Install the soccer robot                                     
 ## Step 1
 ### Remove two photoresistors
@@ -216,3 +225,65 @@ Keep the claw close and face front before installing the gear
 
 ![IMG_256](media/4a7b89134d7aa5897733fa0ab411872c.jpeg)
 
+
+# Install a soccer goal
+
+## Step 1                                                                 
+### Required Parts
+
+![2](media/0fc16ff134aa3503319d4101362338d8.png)
+
+------
+
+![2_1](media/1bd86df44aba070fea465a1da26df9e9.png)
+
+------
+
+![2_2](media/f3749804b3ac033cfdd7b4423ddea660.png)
+
+------
+
+​                               
+
+## Step 2
+
+Required Parts
+![2_3](media/8d3f4c81812931c8cb3140c5fc33aa1a.png)
+
+------
+
+![2_4](media/dcc81f3f50258615595745676921b34c.png)
+
+------
+
+![2_5](media/567e873c86303e9e7ef0f6c919ae8fac.png)
+
+------
+
+
+
+## Step 3
+Required Parts
+![2_6](media/99d485c0ce81fe195bd9d4282403b8f1.png)
+
+------
+
+![2_7](media/5d749f5431468ffc7be947dfafd68223.png)
+
+------
+
+![2_8](media/89031df8ec6afe07c8e58fe26a2974c4.png)
+
+------
+
+Then the soccer goal is installed well.
+
+**Test Code：**
+
+![](media/41a0c18db4513d6048cbc126cd5eee72.png)
+
+Build up the soccer goal with building blocks and place it at fixed location, connect the robot car through Wifi.
+
+Put a small soccer in the middle of the claw of the robot car, press and hold down the button ![](media/c6d6fb5f7473c0aabcdeddb580b740ed.png)to enable the claw to hold the soccer, then press buttons ![](media/5f365b2083f264b4ecfc5e68d07df287.png)to adjust the car’s movement direction so as to put the soccer close to the soccer goal. At last, release the button ![](media/c6d6fb5f7473c0aabcdeddb580b740ed.png)to allow the soccer to drop on the floor and roll to the soccer goal. If not, repeat the above step to shoot the goal.
+
+If your friend owns this kind of soccer robot, you guys can hold a soccer match. It sounds amazing, right?.
