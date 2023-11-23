@@ -1,4 +1,14 @@
-# How to install the catapult
+# **Catapult**
+
+## **Description：**
+
+A catapult is a ballistic device used to launch a projectile a great distance without the aid of gunpowder or other propellants – particularly various types of ancient and medieval siege engines. ... We will make a catapult with LEGO building blocks. Equipped with servos and gears, the car has LEGO tower used to carry projectiles.
+
+As the servo rotates to a proper angle then push the long arm backward a projectile will be launched.
+
+## **How to build up a catapult**
+
+
 ## Step 1
 ### Required components
 ![3](media/ef12c46a8dc6e5f5c7f7ee6fc3c3dc55.png)
@@ -257,15 +267,17 @@
 
 ### Upload the code of the servo to the main board of the Beetlebot car, as shown below
 
-![](media/6c4fa9b5cae50d4f4596936d418def99.png)
+    #include <Servo.h>
+    Servo lgservo;  // create servo object to control a servo
 
-### You can also initialize the angle of the servo through the following code
+    void setup() {
+    lgservo.attach(3);  // attaches the servo on pin 3 to the servo object
+    }
 
-![](media/058b30d50392dbafa6b7bda5d47f2d25.png)
+    void loop() {
+    lgservo.write(0); // tell servo to go to position
+    }
 
-### Check the Scratch-KidsBlock code as follows，then upload the code to the main board of the Beetlebot car
-
-![](media/c0a1ff518c65d168f4ec2fdaf9f8ea71.png)
 
 ------
 
@@ -302,3 +314,110 @@
 ### Interface the servo
 
 ![1ce70f3a2988e646798cadfc6fc8995](media/89fd41d160d778d0a7ef66c90fd28889.jpeg)
+
+## **Test Code：**
+
+    #include <Servo.h>
+    Servo lgservo;
+    #define ML 15
+    #define ML_PWM 17
+    #define MR 14
+    #define MR_PWM 16
+    #define servo2 3
+
+    char val;
+    char wifiData;
+    boolean servo_flag = 1;
+
+    void setup() {
+    Serial1.begin(9600);
+    pinMode(ML, OUTPUT);
+    pinMode(ML_PWM, OUTPUT);
+    pinMode(MR, OUTPUT);
+    pinMode(MR_PWM, OUTPUT);
+    
+    lgservo.attach(3);
+    lgservo.write(0);
+    }
+
+    void loop() {
+    if(Serial1.available() > 0)
+    {
+        val = Serial1.read();
+        Serial.print(val);
+    }
+    switch(val)
+    {
+        case 'F': car_forward(); break;
+        case 'B': car_back(); break;
+        case 'L': car_left(); break;
+        case 'R': car_right(); break;
+        case 'S': car_stop(); break;
+        case 'p': lgservo.write(85);servo_flag = 1; break;
+        case 'x': servo_down(); break;
+    }
+    }
+
+    void servo_down()
+    {
+    while( servo_flag == 1)
+    {
+        for(int i=55; i>0; i--)
+        {
+        lgservo.write(i);
+        delay(2);
+        }
+        servo_flag = 0;
+    }
+    
+    }
+
+
+    void car_forward()
+    {
+    digitalWrite(ML,LOW);
+    analogWrite(ML_PWM,255);
+    digitalWrite(MR,LOW);
+    analogWrite(MR_PWM,255);
+    }
+
+    void car_back()
+    {
+    digitalWrite(ML,HIGH);
+    analogWrite(ML_PWM,0);
+    digitalWrite(MR,HIGH);
+    analogWrite(MR_PWM,0);
+    }
+
+    void car_left()
+    {
+    digitalWrite(ML,HIGH);
+    analogWrite(ML_PWM,150);
+    digitalWrite(MR,LOW);
+    analogWrite(MR_PWM,105);
+    }
+
+    void car_right()
+    {
+    digitalWrite(ML,LOW);
+    analogWrite(ML_PWM,105);
+    digitalWrite(MR,HIGH);
+    analogWrite(MR_PWM,150);
+    }
+
+    void car_stop()
+    {
+    digitalWrite(ML,LOW);
+    analogWrite(ML_PWM,0);
+    digitalWrite(MR,LOW);
+    analogWrite(MR_PWM,0);
+    }
+
+
+Build up a few target objects with building blocks(object A, B, C, D, E) and keep them in a certain distance away the catapult and connect Wifi.
+
+Click ![](media/5f365b2083f264b4ecfc5e68d07df287.png) to make the car to face the object A, hold down the button ![](media/0e62c323c0018af1a2824a120d447bda.png)to drive the catapult to launch a building block.
+
+Then release the button ![](media/0e62c323c0018af1a2824a120d447bda.png)to make the long arm return to the original state. Next, let’s check if the object A is hit by the launched block
+
+You can repeat above steps to hit the object B, C and D

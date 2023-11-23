@@ -1,3 +1,11 @@
+**Handling Robot**
+
+**Description：**
+
+Among many industrial robots, handling robots are undoubtedly effective, applied in industrial manufacturing, warehousing and logistics, tobacco, medicine, food, chemical and other industries, or in post offices, libraries, ports and parking lots. In this experiment, we will use LEGO blocks to build a handling robot to carry things.
+
+**How to build up a handling robot**
+
 # How to install the handling robot
 
 ## Step 1
@@ -145,15 +153,17 @@
 
 ### Upload the code of the servo to the main board of the Beetlebot car, as shown below
 
-![](media/df4f508eafb8eef145740fc8bd78c33f.png)
+    #include <Servo.h>
+    Servo lgservo;  // create servo object to control a servo
 
-### You can also initialize the angle of the servo through the following code
+    void setup() {
+    lgservo.attach(3);  // attaches the servo on pin 3 to the servo object
+    }
 
-![](media/00f77a1d94aaae5bc1b8b68e6bc6fa60.png)
+    void loop() {
+    lgservo.write(180); // tell servo to go to position
+    }
 
-### Check the Scratch-KidsBlock code as follows，then upload the code to the main board of the Beetlebot car
-
-![](media/b6fd32aa9ce786469388a6f5cb543240.png)
 
 ------
 
@@ -204,3 +214,93 @@
 
 ------
 
+
+**Test Code：**
+
+    #include <Servo.h>
+    Servo lgservo;
+    #define ML 15
+    #define ML_PWM 17
+    #define MR 14
+    #define MR_PWM 16
+    #define servo2 3
+
+    char val;
+    char wifiData;
+
+    void setup() {
+    Serial1.begin(9600);
+    pinMode(ML, OUTPUT);
+    pinMode(ML_PWM, OUTPUT);
+    pinMode(MR, OUTPUT);
+    pinMode(MR_PWM, OUTPUT);
+    
+    lgservo.attach(3);
+    lgservo.write(180);
+    }
+
+    void loop() {
+    if(Serial1.available() > 0)
+    {
+        val = Serial1.read();
+        Serial.print(val);
+    }
+    switch(val)
+    {
+        case 'F': car_forward(); break;
+        case 'B': car_back(); break;
+        case 'L': car_left(); break;
+        case 'R': car_right(); break;
+        case 'S': car_stop(); break;
+        case 'p': lgservo.write(110); break;
+        case 'x': lgservo.write(180); break;
+    }
+    }
+
+
+    void car_forward()
+    {
+    digitalWrite(ML,LOW);
+    analogWrite(ML_PWM,127);
+    digitalWrite(MR,LOW);
+    analogWrite(MR_PWM,127);
+    }
+
+    void car_back()
+    {
+    digitalWrite(ML,HIGH);
+    analogWrite(ML_PWM,127);
+    digitalWrite(MR,HIGH);
+    analogWrite(MR_PWM,127);
+    }
+
+    void car_left()
+    {
+    digitalWrite(ML,HIGH);
+    analogWrite(ML_PWM,150);
+    digitalWrite(MR,LOW);
+    analogWrite(MR_PWM,105);
+    }
+
+    void car_right()
+    {
+    digitalWrite(ML,LOW);
+    analogWrite(ML_PWM,105);
+    digitalWrite(MR,HIGH);
+    analogWrite(MR_PWM,150);
+    }
+
+    void car_stop()
+    {
+    digitalWrite(ML,LOW);
+    analogWrite(ML_PWM,0);
+    digitalWrite(MR,LOW);
+    analogWrite(MR_PWM,0);
+    }
+
+
+Connect Wifi, click buttons![](media/5f365b2083f264b4ecfc5e68d07df287.png) to make the car to move toward building blocks and put some building blocks on the robot.
+
+Then press ![](media/5f365b2083f264b4ecfc5e68d07df287.png)to drive the robot to move.
+
+Hold down the button ![](media/0e62c323c0018af1a2824a120d447bda.png)to drive the robot to drop building blocks, then building blocks can be conveyed

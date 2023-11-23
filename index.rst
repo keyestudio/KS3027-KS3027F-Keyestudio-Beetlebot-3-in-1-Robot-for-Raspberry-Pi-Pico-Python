@@ -6,6 +6,10 @@
    home.md
    arduino/C.md
    python/python.md
+   Soccer/Soccer.md
+   Handling/Handling.md
+   Catapult/Catapult.md
+
    
    
    
