@@ -1,5 +1,6 @@
 # **Beetlebot 3 in 1 Robot for Pico**
 
+![](arduino/media/ks3027.png)
 
 ## Download Resources:
 
