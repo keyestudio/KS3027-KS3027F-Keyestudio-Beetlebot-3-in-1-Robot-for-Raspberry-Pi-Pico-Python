@@ -9,6 +9,7 @@
    Soccer/Soccer.md
    Handling/Handling.md
    Catapult/Catapult.md
+   Assemble/Assemble.md
 
    
    
