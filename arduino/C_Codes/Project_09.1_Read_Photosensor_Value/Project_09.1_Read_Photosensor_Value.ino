@@ -1,21 +1,22 @@
 //*************************************************************************************
 /*
-Project 08.1:Read Photosensor Value
+  Project 08.1: Read Photosensitive Sensor Value
+  Use Raspberry Pi Pico to read photosensitive resistor value
 */
-#define PHOTOSENSITIVE_PIN 26 //Define the pins that Raspberry pi pico reads photosensitive
-int photosensitiveADC;        //Defines a variable to store ADC values
+#define PHOTOSENSITIVE_PIN 26 // Define pin for reading photosensitive sensor on Raspberry Pi Pico
+int photosensitiveADC;        // Define variable to store ADC value
 
 void setup()
 {
-  pinMode(PHOTOSENSITIVE_PIN, INPUT);//Configure the pins for input mode
-  Serial.begin(115200);          //Initialize the serial port and set the baud rate to 115200
+  pinMode(PHOTOSENSITIVE_PIN, INPUT); // Configure pin as input mode
+  Serial.begin(115200);          // Initialize serial communication with baud rate 115200
 }
 
 void loop()
 {
-  photosensitiveADC = analogRead(PHOTOSENSITIVE_PIN);//Read the photosensitive resistance value
+  photosensitiveADC = analogRead(PHOTOSENSITIVE_PIN); // Read photosensitive resistor value
   Serial.print("photosensitiveADC: ");
-  Serial.println(photosensitiveADC);         //Print photosensitive resistance value
-  delay(500);
+  Serial.println(photosensitiveADC);         // Print photosensitive resistor value
+  delay(500); // Delay 500 milliseconds
 }
 //*************************************************************************************

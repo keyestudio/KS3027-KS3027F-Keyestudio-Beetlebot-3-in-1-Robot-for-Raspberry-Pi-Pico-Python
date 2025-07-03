@@ -4,14 +4,14 @@
 #define MR_PWM 16
 #define lightL_pin 26
 #define lightR_pin 27
-//超声波传感器
-#include <UltrasonicSensor.h> //定义超声波模块函数库
+
+#include <UltrasonicSensor.h> 
 #define Trig 10
 #define Echo 11
-UltrasonicSensor ultrasonic(10, 11);//连接Trigger和Echo引脚
+UltrasonicSensor ultrasonic(10, 11);
 const int servopin = 9;
 #include<music.h>
-#define buz 12  //蜂鸣器引脚
+#define buz 12  
 music Music(buz);
 #include <Adafruit_NeoPixel.h>
 Adafruit_NeoPixel rgb_display = Adafruit_NeoPixel(4,13,NEO_GRB + NEO_KHZ800);
@@ -142,7 +142,7 @@ void followLightCar()
 
 void followCar()
 {
-  int distance = ultrasonic.distanceInCentimeters();//超声波测量的距离
+  int distance = ultrasonic.distanceInCentimeters();
   Serial.print("distance = ");
   Serial.println(distance);
   if((distance > 10) && (distance < 35))
@@ -210,7 +210,8 @@ void avoid()
   }
 }
 
-float checkdistance() {
+float checkdistance() 
+{
   digitalWrite(Trig, LOW);
   delayMicroseconds(2);
   digitalWrite(Trig, HIGH);
@@ -221,7 +222,7 @@ float checkdistance() {
   return distance;
 }
 
-void servopulse(int servopin,int myangle)//舵机运行角度
+void servopulse(int servopin,int myangle)
 {
   for(int i=0; i<20; i++)
   {

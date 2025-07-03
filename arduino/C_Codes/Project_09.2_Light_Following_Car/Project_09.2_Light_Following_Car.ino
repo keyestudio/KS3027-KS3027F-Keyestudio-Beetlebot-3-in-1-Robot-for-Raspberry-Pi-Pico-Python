@@ -1,101 +1,104 @@
 //*************************************************************************************
 /*
-Project 08.2:Light Following Car
-*/ 
-//电机
-const int left_ctrl = 15;//定义左电机方向控制引脚GPIO15
-const int left_pwm = 17;//定义左电机速度控制引脚GPIO17
-const int right_ctrl = 14;//定义右电机方向控制引脚GPIO14
-const int right_pwm = 16;//定义右电机速度控制引脚GPIO16
+  Project 09.2: Light Following Car
+*/
+// Motors
+const int left_ctrl = 15; // Define left motor direction control pin GPIO15
+const int left_pwm = 17;  // Define left motor speed control pin GPIO17
+const int right_ctrl = 14; // Define right motor direction control pin GPIO14
+const int right_pwm = 16; // Define right motor speed control pin GPIO16
 
-//左右光敏传感器
-#define light_L_Pin  26   //定义左光敏传感器引脚gpio26
-#define light_R_Pin  27   //定义右光敏传感器引脚gpio27
+// Left and Right Photosensitive Sensors
+#define light_L_Pin  26   // Define left photosensitive sensor pin GPIO26
+#define light_R_Pin  27   // Define right photosensitive sensor pin GPIO27
 int left_light; 
 int right_light;
 
-//舵机
-const int servopin = 9;//定义舵机的脚位在GPIO9
+// Servo
+const int servopin = 9; // Define servo pin at GPIO9
 int myangle;
 int pulsewidth;
 
 void setup(){
-  Serial.begin(115200); //设置波特率为115200.
-  pinMode(light_L_Pin, INPUT); //设置左光敏传感器引脚为输入
-  pinMode(light_R_Pin, INPUT); //设置右光敏传感器引脚为输入
+  Serial.begin(115200); // Set baud rate to 115200
+  pinMode(light_L_Pin, INPUT); // Set left photosensitive sensor pin as input
+  pinMode(light_R_Pin, INPUT); // Set right photosensitive sensor pin as input
   
-  pinMode(left_ctrl,OUTPUT);//设置左电机方向控制引脚为输出
-  pinMode(left_pwm,OUTPUT);//设置左电机pwm控制速度引脚为输出
-  pinMode(right_ctrl,OUTPUT);//设置右电机方向控制引脚为输出
-  pinMode(right_pwm,OUTPUT);//设置右电机pwm控制速度引脚为输出
+  pinMode(left_ctrl, OUTPUT); // Set left motor direction control pin as output
+  pinMode(left_pwm, OUTPUT);  // Set left motor PWM speed control pin as output
+  pinMode(right_ctrl, OUTPUT); // Set right motor direction control pin as output
+  pinMode(right_pwm, OUTPUT);  // Set right motor PWM speed control pin as output
   
-  servopulse(servopin,90);//设置舵机初始角度为90
+  servopulse(servopin, 90); // Set initial servo angle to 90 degrees
   delay(300);
 }
 
 void loop(){
-  left_light = analogRead(light_L_Pin);//读取左光敏传感器的值
-  right_light = analogRead(light_R_Pin);//读取右光敏传感器的值
+  left_light = analogRead(light_L_Pin); // Read left photosensitive sensor value
+  right_light = analogRead(light_R_Pin); // Read right photosensitive sensor value
   Serial.print("left_light_value = ");
   Serial.println(left_light);
   Serial.print("right_light_value = ");
   Serial.println(right_light);
-  if (left_light > 700 && right_light > 700) //左,右光敏传感器测到的范围值
+  if (left_light > 700 && right_light > 700) // Range values detected by left and right photosensitive sensors
   {  
-    Car_front(); //小车前进
+    Car_front(); // Car moves forward
   } 
-  else if (left_light > 700 && right_light <= 700)  //左,右光敏传感器测到的范围值
+  else if (left_light > 700 && right_light <= 700)  // Range values detected by left and right photosensitive sensors
   {
-    Car_left(); //小车左转
+    Car_left(); // Car turns left
   } 
-  else if (left_light <= 700 && right_light > 700) //左,右光敏传感器测到的范围值
+  else if (left_light <= 700 && right_light > 700) // Range values detected by left and right photosensitive sensors
   {
-    Car_right(); //小车右转
+    Car_right(); // Car turns right
   } 
-  else  //除以上情况之外
+  else  // For all other cases
   {
-    Car_Stop(); //小车停止
+    Car_Stop(); // Car stops
   }
 }
 
-void servopulse(int servopin,int myangle)//舵机运行角度
+void servopulse(int servopin, int myangle) // Servo angle control function
 {
-  for(int i=0; i<20; i++)
+  for (int i = 0; i < 20; i++)
   {
-    pulsewidth = (myangle*11)+500;
-    digitalWrite(servopin,HIGH);
+    pulsewidth = (myangle * 11) + 500;
+    digitalWrite(servopin, HIGH);
     delayMicroseconds(pulsewidth);
-    digitalWrite(servopin,LOW);
-    delay(20-pulsewidth/1000);
+    digitalWrite(servopin, LOW);
+    delay(20 - pulsewidth / 1000);
   }  
 }
 
 void Car_front()
 {
-  digitalWrite(left_ctrl,LOW); //左电机方向控制引脚低电平
-  analogWrite(left_pwm,100); //左电机PWM控制速度100
-  digitalWrite(right_ctrl,LOW); //右电机方向控制引脚低电平
-  analogWrite(right_pwm,100); //右电机PWM控制速度100
+  digitalWrite(left_ctrl, LOW);  // Left motor direction control pin low
+  analogWrite(left_pwm, 100);    // Left motor PWM speed 100
+  digitalWrite(right_ctrl, LOW); // Right motor direction control pin low
+  analogWrite(right_pwm, 100);   // Right motor PWM speed 100
 }
+
 void Car_left()
 {
-  digitalWrite(left_ctrl,HIGH); //左电机方向控制引脚高电平
-  analogWrite(left_pwm,155); //左电机PWM控制速度155
-  digitalWrite(right_ctrl,LOW); //右电机方向控制引脚低电平
-  analogWrite(right_pwm,100); //右电机PWM控制速度100
+  digitalWrite(left_ctrl, HIGH); // Left motor direction control pin high
+  analogWrite(left_pwm, 155);    // Left motor PWM speed 155
+  digitalWrite(right_ctrl, LOW); // Right motor direction control pin low
+  analogWrite(right_pwm, 100);   // Right motor PWM speed 100
 }
+
 void Car_right()
 {
-  digitalWrite(left_ctrl,LOW); //左电机方向控制引脚低电平
-  analogWrite(left_pwm,100); //左电机PWM控制速度100
-  digitalWrite(right_ctrl,HIGH); //右电机方向控制引脚高电平
-  analogWrite(right_pwm,155); //右电机PWM控制速度155
+  digitalWrite(left_ctrl, LOW);  // Left motor direction control pin low
+  analogWrite(left_pwm, 100);    // Left motor PWM speed 100
+  digitalWrite(right_ctrl, HIGH); // Right motor direction control pin high
+  analogWrite(right_pwm, 155);   // Right motor PWM speed 155
 }
+
 void Car_Stop()
 {
-  digitalWrite(left_ctrl,LOW);//左电机方向控制引脚低电平
-  analogWrite(left_pwm,0);//左电机PWM控制速度0
-  digitalWrite(right_ctrl,LOW);//右电机方向控制引脚低电平
-  analogWrite(right_pwm,0);//右电机PWM控制速度0
+  digitalWrite(left_ctrl, LOW); // Left motor direction control pin low
+  analogWrite(left_pwm, 0);     // Left motor PWM speed 0
+  digitalWrite(right_ctrl, LOW); // Right motor direction control pin low
+  analogWrite(right_pwm, 0);    // Right motor PWM speed 0
 }
 //*************************************************************************************

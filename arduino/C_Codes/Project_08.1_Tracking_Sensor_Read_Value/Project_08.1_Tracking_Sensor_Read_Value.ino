@@ -1,25 +1,25 @@
 //*************************************************************************************
 /*
-Project 08.1: Tracking sensor read value
-*/ 
-#define tracking_left  7  //定义左红外循迹引脚gpio7
-#define tracking_right  8  //定义右红外循迹引脚gpio8
-int L_val,R_val; //定义左,右红外循迹两个变量
+  Project 08.1: Tracking Sensor Reading
+*/
+#define tracking_left  7  // Define left infrared tracking pin GPIO7
+#define tracking_right  8  // Define right infrared tracking pin GPIO8
+int L_val, R_val; // Define variables for left and right infrared tracking
 
 void setup() {
- Serial.begin(115200); //设置波特率为115200
- pinMode(tracking_left, INPUT); //设置左红外循迹引脚为输入模式
- pinMode(tracking_right, INPUT); //设置右红外循迹引脚为输入模式
+  Serial.begin(115200); // Set baud rate to 115200
+  pinMode(tracking_left, INPUT); // Set left infrared tracking pin as input mode
+  pinMode(tracking_right, INPUT); // Set right infrared tracking pin as input mode
 }
 
 void loop() {
- L_val = digitalRead(tracking_left); //读取左红外循迹的值
- R_val = digitalRead(tracking_right); //读取右红外循迹的值
- Serial.print("L_val: "); //串口打印字符串L_val
- Serial.print(L_val); //串口打印L_val值
- Serial.print("    "); //串口打印空格
- Serial.print("R_val: "); //串口打印字符串R_val
- Serial.println(R_val); //串口打印R_val值
- delay(300); //延时0.3秒
+  L_val = digitalRead(tracking_left); // Read left infrared tracking value
+  R_val = digitalRead(tracking_right); // Read right infrared tracking value
+  Serial.print("L_val: "); // Print string "L_val" to serial
+  Serial.print(L_val); // Print L_val value to serial
+  Serial.print("    "); // Print space to serial
+  Serial.print("R_val: "); // Print string "R_val" to serial
+  Serial.println(R_val); // Print R_val value to serial
+  delay(300); // Delay 0.3 seconds
 }
 //*************************************************************************************

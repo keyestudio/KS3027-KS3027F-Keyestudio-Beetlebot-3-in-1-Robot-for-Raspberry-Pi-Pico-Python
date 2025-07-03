@@ -1,101 +1,104 @@
 //*************************************************************************************
 /*
-Project 07.2: Follow line to walk
+  Project 08.2: Line Following
 */
-//电机
-const int left_ctrl = 15;//定义左电机方向控制引脚GPIO15
-const int left_pwm = 17;//定义左电机速度控制引脚GPIO17
-const int right_ctrl = 14;//定义右电机方向控制引脚GPIO14
-const int right_pwm = 16;//定义右电机速度控制引脚GPIO16
+// Motors
+const int left_ctrl = 15; // Define left motor direction control pin GPIO15
+const int left_pwm = 17;  // Define left motor speed control pin GPIO17
+const int right_ctrl = 14; // Define right motor direction control pin GPIO14
+const int right_pwm = 16; // Define right motor speed control pin GPIO16
 
-//红外循迹
-#define tracking_left  7  //定义左红外循迹引脚gpio7
-#define tracking_right  8  //定义右红外循迹引脚gpio8
-int L_val,R_val;//定义左,右红外循迹两个变量
+// Infrared Tracking
+#define tracking_left  7  // Define left infrared tracking pin GPIO7
+#define tracking_right  8  // Define right infrared tracking pin GPIO8
+int L_val, R_val; // Define variables for left and right infrared tracking
 
-//舵机
-const int servopin = 9;//定义舵机的脚位在GPIO9
+// Servo
+const int servopin = 9; // Define servo pin at GPIO9
 int myangle;
 int pulsewidth;
 
 void setup() {
-  pinMode(left_ctrl,OUTPUT);//设置左电机方向控制引脚为输出
-  pinMode(left_pwm,OUTPUT);//设置左电机pwm控制速度引脚为输出
-  pinMode(right_ctrl,OUTPUT);//设置右电机方向控制引脚为输出
-  pinMode(right_pwm,OUTPUT);//设置右电机pwm控制速度引脚为输出
+  pinMode(left_ctrl, OUTPUT); // Set left motor direction control pin as output
+  pinMode(left_pwm, OUTPUT);  // Set left motor PWM speed control pin as output
+  pinMode(right_ctrl, OUTPUT); // Set right motor direction control pin as output
+  pinMode(right_pwm, OUTPUT);  // Set right motor PWM speed control pin as output
   
-  pinMode(tracking_left, INPUT); //设置左红外循迹引脚为输入
-  pinMode(tracking_right, INPUT); //设置右红外循迹引脚为输入
+  pinMode(tracking_left, INPUT); // Set left infrared tracking pin as input
+  pinMode(tracking_right, INPUT); // Set right infrared tracking pin as input
  
-  servopulse(servopin,90);//设置舵机初始角度为90
+  servopulse(servopin, 90); // Set initial servo angle to 90 degrees
   delay(300);
 }
 
 void loop() 
 {
-  tracking(); //运行主程序
+  tracking(); // Run main program
 }
 
 void tracking()
 {
-  L_val = digitalRead(tracking_left);//读取左红外循迹的值
-  R_val = digitalRead(tracking_right);//读取右红外循迹的值
-  if((L_val == 1)&&(R_val == 1))//如果左,右红外循迹都读到黑线
+  L_val = digitalRead(tracking_left); // Read left infrared tracking value
+  R_val = digitalRead(tracking_right); // Read right infrared tracking value
+  if ((L_val == 1) && (R_val == 1)) // If both left and right infrared sensors detect black line
   {
-    front();//小车前进
+    front(); // Car moves forward
   }
-  else if((L_val == 1)&&(R_val == 0))//否则如果左红外循迹读到黑线，右红外循迹没有
+  else if ((L_val == 1) && (R_val == 0)) // If left sensor detects black line but right does not
   {
-    left();//小车左转
+    left(); // Car turns left
   }
-  else if((L_val == 0)&&(R_val == 1))//如果右红外循迹读到黑线，左红外循迹没有
+  else if ((L_val == 0) && (R_val == 1)) // If right sensor detects black line but left does not
   {
-    right();//小车右转
+    right(); // Car turns right
   }
-  else//如果左,右红外循迹都没有读到黑线
+  else // If neither left nor right sensor detects black line
   {
-    Stop();//小车停止
-   }
+    Stop(); // Car stops
+  }
 }
 
-void servopulse(int servopin,int myangle)//舵机运行角度
+void servopulse(int servopin, int myangle) // Servo angle control function
 {
-  for(int i=0; i<20; i++)
+  for (int i = 0; i < 20; i++)
   {
-    pulsewidth = (myangle*11)+500;
-    digitalWrite(servopin,HIGH);
+    pulsewidth = (myangle * 11) + 500;
+    digitalWrite(servopin, HIGH);
     delayMicroseconds(pulsewidth);
-    digitalWrite(servopin,LOW);
-    delay(20-pulsewidth/1000);
+    digitalWrite(servopin, LOW);
+    delay(20 - pulsewidth / 1000);
   }  
 }
 
-void front()//定义前进的状态
+void front() // Define forward state
 {
-  digitalWrite(left_ctrl,LOW); //左电机方向控制引脚低电平
-  analogWrite(left_pwm,100); //左电机PWM控制速度100
-  digitalWrite(right_ctrl,LOW); //右电机方向控制引脚低电平
-  analogWrite(right_pwm,100); //右电机PWM控制速度100
+  digitalWrite(left_ctrl, LOW);  // Left motor direction control pin low
+  analogWrite(left_pwm, 100);    // Left motor PWM speed 100
+  digitalWrite(right_ctrl, LOW); // Right motor direction control pin low
+  analogWrite(right_pwm, 100);   // Right motor PWM speed 100
 }
-void left()//定义左转的状态
+
+void left() // Define left turn state
 {
-  digitalWrite(left_ctrl,HIGH); //左电机方向控制引脚高电平
-  analogWrite(left_pwm,155); //左电机PWM控制速度155
-  digitalWrite(right_ctrl,LOW); //右电机方向控制引脚低电平
-  analogWrite(right_pwm,100); //右电机PWM控制速度100
+  digitalWrite(left_ctrl, HIGH); // Left motor direction control pin high
+  analogWrite(left_pwm, 155);    // Left motor PWM speed 155
+  digitalWrite(right_ctrl, LOW); // Right motor direction control pin low
+  analogWrite(right_pwm, 100);   // Right motor PWM speed 100
 }
-void right()//定义右转的状态
+
+void right() // Define right turn state
 {
-  digitalWrite(left_ctrl,LOW); //左电机方向控制引脚低电平
-  analogWrite(left_pwm,100); //左电机PWM控制速度100
-  digitalWrite(right_ctrl,HIGH); //右电机方向控制引脚高电平
-  analogWrite(right_pwm,155); //右电机PWM控制速度155
+  digitalWrite(left_ctrl, LOW);  // Left motor direction control pin low
+  analogWrite(left_pwm, 100);    // Left motor PWM speed 100
+  digitalWrite(right_ctrl, HIGH); // Right motor direction control pin high
+  analogWrite(right_pwm, 155);   // Right motor PWM speed 155
 }
-void Stop()//定义停止的状态
+
+void Stop() // Define stop state
 {
-  digitalWrite(left_ctrl,LOW);//左电机方向控制引脚低电平
-  analogWrite(left_pwm,0);//左电机PWM控制速度0
-  digitalWrite(right_ctrl,LOW);//右电机方向控制引脚低电平
-  analogWrite(right_pwm,0);//右电机PWM控制速度0
+  digitalWrite(left_ctrl, LOW); // Left motor direction control pin low
+  analogWrite(left_pwm, 0);     // Left motor PWM speed 0
+  digitalWrite(right_ctrl, LOW); // Right motor direction control pin low
+  analogWrite(right_pwm, 0);    // Right motor PWM speed 0
 }
 //*************************************************************************************

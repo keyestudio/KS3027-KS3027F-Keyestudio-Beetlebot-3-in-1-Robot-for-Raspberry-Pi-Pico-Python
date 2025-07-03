@@ -1,56 +1,56 @@
 //*************************************************************************************
 /*
- Project 06 Motor drive and speed regulation
- Motor moves forward, backward, left and right
-*/ 
-const int left_ctrl = 15;//定义左电机方向控制引脚GPIO15
-const int left_pwm = 17;//定义左电机速度控制引脚GPIO17
-const int right_ctrl = 14;//定义右电机方向控制引脚GPIO14
-const int right_pwm = 16;//定义右电机速度控制引脚GPIO16
+  Project 06 Motor Drive and Speed Control
+  Control motor to move forward, backward, turn left, and turn right
+*/
+const int left_ctrl = 15; // Define left motor direction control pin GPIO15
+const int left_pwm = 17;  // Define left motor speed control pin GPIO17
+const int right_ctrl = 14; // Define right motor direction control pin GPIO14
+const int right_pwm = 16; // Define right motor speed control pin GPIO16
 
 void setup()
 {
-  pinMode(left_ctrl,OUTPUT);//设置左电机方向控制引脚为输出
-  pinMode(left_pwm,OUTPUT);//设置左电机pwm控制速度引脚为输出
-  pinMode(right_ctrl,OUTPUT);//设置右电机方向控制引脚为输出
-  pinMode(right_pwm,OUTPUT);//设置右电机pwm控制速度引脚为输出
+  pinMode(left_ctrl, OUTPUT); // Set left motor direction control pin as output
+  pinMode(left_pwm, OUTPUT);  // Set left motor PWM speed control pin as output
+  pinMode(right_ctrl, OUTPUT); // Set right motor direction control pin as output
+  pinMode(right_pwm, OUTPUT);  // Set right motor PWM speed control pin as output
 }
 
 void loop()
 { 
-  //front
-  digitalWrite(left_ctrl,LOW); //左电机方向控制引脚低电平
-  analogWrite(left_pwm,200); //左电机PWM控制速度200
-  digitalWrite(right_ctrl,LOW); //右电机方向控制引脚低电平
-  analogWrite(right_pwm,200); //右电机PWM控制速度200
-  delay(2000);//延时2秒
+  // Forward
+  digitalWrite(left_ctrl, LOW);  // Left motor direction control pin low
+  analogWrite(left_pwm, 200);    // Left motor PWM speed 200
+  digitalWrite(right_ctrl, LOW); // Right motor direction control pin low
+  analogWrite(right_pwm, 200);   // Right motor PWM speed 200
+  delay(2000);                   // Delay 2 seconds
   
-  //back
-  digitalWrite(left_ctrl,HIGH); //左电机方向控制引脚高电平
-  analogWrite(left_pwm,50); //左电机PWM控制速度50
-  digitalWrite(right_ctrl,HIGH); //右电机方向控制引脚高电平
-  analogWrite(right_pwm,50); //右电机PWM控制速度50
-  delay(2000);//延时2秒
+  // Backward
+  digitalWrite(left_ctrl, HIGH); // Left motor direction control pin high
+  analogWrite(left_pwm, 50);     // Left motor PWM speed 50
+  digitalWrite(right_ctrl, HIGH); // Right motor direction control pin high
+  analogWrite(right_pwm, 50);    // Right motor PWM speed 50
+  delay(2000);                   // Delay 2 seconds
   
-  //left
-  digitalWrite(left_ctrl,HIGH); //左电机方向控制引脚高电平
-  analogWrite(left_pwm,55); //左电机PWM控制速度55
-  digitalWrite(right_ctrl,LOW); //右电机方向控制引脚低电平
-  analogWrite(right_pwm,200); //右电机PWM控制速度200
-  delay(2000);//延时2秒
+  // Left
+  digitalWrite(left_ctrl, HIGH); // Left motor direction control pin high
+  analogWrite(left_pwm, 55);     // Left motor PWM speed 55
+  digitalWrite(right_ctrl, LOW); // Right motor direction control pin low
+  analogWrite(right_pwm, 200);   // Right motor PWM speed 200
+  delay(2000);                   // Delay 2 seconds
   
-  //right
-  digitalWrite(left_ctrl,LOW); //左电机方向控制引脚低电平
-  analogWrite(left_pwm,200); //左电机PWM控制速度200
-  digitalWrite(right_ctrl,HIGH); //右电机方向控制引脚高电平
-  analogWrite(right_pwm,55); //右电机PWM控制速度55
-  delay(2000);//延时2秒
+  // Right
+  digitalWrite(left_ctrl, LOW);  // Left motor direction control pin low
+  analogWrite(left_pwm, 200);    // Left motor PWM speed 200
+  digitalWrite(right_ctrl, HIGH); // Right motor direction control pin high
+  analogWrite(right_pwm, 55);    // Right motor PWM speed 55
+  delay(2000);                   // Delay 2 seconds
   
-  //stop
-  digitalWrite(left_ctrl,LOW);//左电机方向控制引脚低电平
-  analogWrite(left_pwm,0);//左电机PWM控制速度0
-  digitalWrite(right_ctrl,LOW);//右电机方向控制引脚低电平
-  analogWrite(right_pwm,0);//右电机PWM控制速度0
-  delay(2000);//延时2秒
+  // Stop
+  digitalWrite(left_ctrl, LOW);  // Left motor direction control pin low
+  analogWrite(left_pwm, 0);      // Left motor PWM speed 0
+  digitalWrite(right_ctrl, LOW); // Right motor direction control pin low
+  analogWrite(right_pwm, 0);     // Right motor PWM speed 0
+  delay(2000);                   // Delay 2 seconds
 }
 //*************************************************************************************
